@@ -6,7 +6,7 @@
     p.bio 2015年, ツイッター芸人として活動を開始. 大阪を中心に活動を続け, 数々の人間を笑顔にさせてきた. 近年はラーメンやエンジニアリングにも活動範囲を広げ, 国内外問わず高い人気を誇っている. 今, 世界で最も注目されている人間の１人である.
     b-tabs
       b-tab(title='Links', active='')
-        ul.links
+        ul.links.mt-2
           li.link
             a.anchor(href='https://twitter.com/h_tyokinuhata', target='_blank') Twitter
           li.link
@@ -20,7 +20,7 @@
           li.link
             a.anchor(href='https://studyplus.jp/users/h_tyokinuhata', target='_blank') Studyplus
       b-tab(title='Products')
-        ul.links
+        ul.links.mt-2
           li.link
             a.anchor(href='https://tyokinuhata.github.io/zakkuri-bra/', target='_blank') ざっくりBRA
           li.link
@@ -78,10 +78,7 @@ export default {
   }
 
   .links {
-    list-style: none;
     line-height: 2em;
-    padding: 0;
-    text-align: center;
   }
 
   .anchor {
