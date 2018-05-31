@@ -46,7 +46,7 @@ export default {
   body {
     background: #f8f8f8;
     font-family: 'Quicksand', sans-serif;
-    color: #626063;
+    color: $gray;
   }
 
   .container {
@@ -95,6 +95,6 @@ export default {
 
   .anchor {
     text-decoration: none;
-    color: #626063;
+    color: $gray;
   }
 </style>
