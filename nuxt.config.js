@@ -37,5 +37,8 @@ module.exports = {
   },
   router: {
     base: '/portfolio/'
-  }
+  },
+  modules: [
+    'bootstrap-vue/nuxt'
+  ]
 }
