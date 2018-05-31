@@ -35,6 +35,9 @@ import AppLogo from '~/components/AppLogo.vue'
 export default {
   components: {
     AppLogo
+  },
+  created() {
+    console.log('肉まんを...憎まんでください...')
   }
 }
 </script>
