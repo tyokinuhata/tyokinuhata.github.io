@@ -56,8 +56,4 @@
     line-height: 2em;
     text-align: left;
   }
-
-  .title {
-    text-align: center;
-  }
 </style>
