@@ -30,16 +30,11 @@
 </template>
 
 <script>
-import AppLogo from '~/components/AppLogo.vue'
-
-export default {
-  components: {
-    AppLogo
-  },
-  created() {
-    console.log('肉まんを...憎まんでください...')
+  export default {
+    created() {
+      console.log('肉まんを...憎まんでください...')
+    }
   }
-}
 </script>
 
 <style lang="scss" scoped>
