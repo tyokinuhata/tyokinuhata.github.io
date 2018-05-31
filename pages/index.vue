@@ -42,15 +42,9 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
   @import '~assets/scss/_variable.scss';
   @import '~assets/scss/_mixin.scss';
-
-  body {
-    background: #f8f8f8;
-    font-family: 'Quicksand', sans-serif;
-    color: $gray;
-  }
 
   .container {
     margin: 0 auto;
