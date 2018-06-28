@@ -1,11 +1,25 @@
 <template lang="pug">
   ul.links.mt-2
     li.link
-      a.anchor(href='https://tyokinuhata.github.io/zakkuri-bra/', target='_blank') ざっくりBRA
+      details
+        summary
+          a.anchor(href='https://tyokinuhata.github.io/zakkuri-bra/', target='_blank') ざっくりBRA
+        span おっぱいのサイズに応じた最適なカップ数を算出するツールです.
     li.link
-      a.anchor(href='https://github.com/tyokinuhata/codic-cli', target='_blank') codic-cli
+      details
+        summary
+          a.anchor(href='https://www.npmjs.com/package/codic-cli', target='_blank') codic-cli
+        span 変数やメソッド名の適切な名前を提案をしてくれるCLIアプリケーションです.
     li.link
-      a.anchor(href='https://tyokinuhata.github.io/trouble-traveler/', target='_blank') Trouble Traveler
+      details
+        summary
+          a.anchor(href='https://tyokinuhata.github.io/trouble-traveler/', target='_blank') Trouble Traveler
+        span 旅行先ルーレット🗾🗻🗼⛩
+    li.link
+      details
+        summary
+          a.anchor(href='https://packagist.org/packages/tyokinuhata/html-builder', target='_blank') HTML Builder
+        span PHPのメソッドチェーンでHTMLとCSSを記述できるライブラリです.
 </template>
 
 <style lang="scss" scoped>
@@ -13,6 +27,11 @@
 
   .links {
     line-height: 2em;
+    padding: 0;
+  }
+
+  .link {
+    list-style-type: none;
   }
 
   .anchor {
