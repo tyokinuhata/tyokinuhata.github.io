@@ -20,6 +20,16 @@
         summary
           a.anchor(href='https://packagist.org/packages/tyokinuhata/html-builder', target='_blank') HTML Builder
         span PHPのメソッドチェーンでHTMLとCSSを記述できるライブラリです.
+    li.link
+      details
+        summary
+          a.anchor(href='https://github.com/tyokinuhata/gyakupo', target='_blank') 逆ポ
+        span 電卓.
+    li.link
+      details
+        summary
+          a.anchor(href='https://todoom.herokuapp.com', target='_blank') todoom
+        span 面白いTODOアプリです.
 </template>
 
 <style lang="scss" scoped>
