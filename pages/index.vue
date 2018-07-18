@@ -26,9 +26,9 @@
   }
 </script>
 
-<style lang="scss" scoped>
-  @import '~assets/scss/_variable.scss';
+<style lang="scss">
   @import '~assets/scss/_mixin.scss';
+  @import '~assets/scss/_base.scss';
 
   .container {
     margin: 0 auto;

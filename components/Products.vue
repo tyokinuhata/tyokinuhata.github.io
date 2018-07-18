@@ -33,8 +33,6 @@
 </template>
 
 <style lang="scss" scoped>
-  @import '~assets/scss/_variable.scss';
-
   .links {
     line-height: 2em;
     padding: 0;
@@ -46,6 +44,6 @@
 
   .anchor {
     text-decoration: none;
-    color: $gray;
+    color: #626063;
   }
 </style>
