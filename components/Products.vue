@@ -3,18 +3,33 @@
     li.link
       details
         summary
+          a.anchor(href='https://real-juice.herokuapp.com/', target='_blank') Real Juice
+        span 夏を楽しむためのサービスです. Hack U 2017 Osakaに出展しました.
+    li.link
+      details
+        summary
+          a.anchor(href='https://b00kshe1f.herokuapp.com/', target='_blank') Bookshelf
+        span 書籍を管理するためのサービスです.
+    li.link
+      details
+        summary
+          a.anchor(href='https://chat-mammoth.herokuapp.com/', target='_blank') chat mammoth
+        span 手書きでチャットができるサービスです.
+    li.link
+      details
+        summary
           a.anchor(href='https://tyokinuhata.github.io/zakkuri-bra/', target='_blank') ざっくりBRA
         span おっぱいのサイズに応じた最適なカップ数を算出するツールです.
     li.link
       details
         summary
-          a.anchor(href='https://www.npmjs.com/package/codic-cli', target='_blank') codic-cli
-        span 変数やメソッド名の適切な名前を提案をしてくれるCLIアプリケーションです.
+          a.anchor(href='https://tyokinuhata.github.io/trouble-traveler/', target='_blank') Trouble Traveler
+        span 旅行先ルーレット🗾🗻🗼⛩
     li.link
       details
         summary
-          a.anchor(href='https://tyokinuhata.github.io/trouble-traveler/', target='_blank') Trouble Traveler
-        span 旅行先ルーレット🗾🗻🗼⛩
+          a.anchor(href='https://www.npmjs.com/package/codic-cli', target='_blank') codic-cli
+        span 変数やメソッド名の適切な名前を提案をしてくれるCLIアプリケーションです.
     li.link
       details
         summary
