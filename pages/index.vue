@@ -61,7 +61,10 @@
             this.commands = this.commands.slice(1);
           }
 
-          console.log(this.commands);
+          if (this.commands === '上上下下左右左右BA') {
+            console.log(this.commands);
+            this.$router.push('/majime');
+          }
         });
       },
       nikuman() {
