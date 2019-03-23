@@ -19,12 +19,54 @@
   import Products from '~/components/Products.vue'
 
   export default {
+    data() {
+      return {
+        commands: '',
+      }
+    },
     components: {
       Links,
       Products
     },
-    created() {
-      console.log('肉まんを...憎まんでください...')
+    mounted() {
+      this.nikuman();
+      this.konamiCommand();
+    },
+    methods: {
+      konamiCommand() {
+        document.addEventListener('keydown', event => {
+          if (event.key === 'ArrowUp') {
+            this.commands += '上';
+          }
+          else if (event.key === 'ArrowDown') {
+            this.commands += '下';
+          }
+          else if (event.key === 'ArrowLeft') {
+            this.commands += '左';
+          }
+          else if (event.key === 'ArrowRight') {
+            this.commands += '右';
+          }
+          else if (event.key === 'A') {
+            this.commands += 'A';
+          }
+          else if (event.key === 'B') {
+            this.commands += 'B';
+          }
+          else if (event.key !== 'Shift') {
+            this.commands = '';
+          }
+
+          if (this.commands.length > 10) {
+            this.commands = this.commands.slice(1);
+          }
+
+          console.log(this.commands);
+        });
+      },
+      nikuman() {
+        console.log('肉まんを...憎まんでください...')
+      }
     }
   }
 </script>
