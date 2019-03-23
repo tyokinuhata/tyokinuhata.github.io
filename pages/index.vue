@@ -1,14 +1,17 @@
-<template lang="pug">
-  section.container
-    .icon-wrapper
-      img.icon(src='~static/icon.png', alt='icon')
-    h1.name Kazukichi
-    p.bio 2015年, ツイッター芸人として活動を開始. 大阪を中心に活動を続け, 数々の人間を笑顔にさせてきた. 近年はラーメンやエンジニアリングにも活動範囲を広げ, 国内外問わず高い人気を誇っている. 今, 世界で最も注目されている人間の１人である.
-    b-tabs
-      b-tab(title='Links', active)
-        links
-      b-tab(title='Products')
-        products
+<template>
+  <section class="container">
+    <div class="icon-wrapper"><img class="icon" src="~static/icon.png" alt="icon" /></div>
+    <h1 class="name">Kazukichi</h1>
+    <p class="bio">2015年, ツイッター芸人として活動を開始. 大阪を中心に活動を続け, 数々の人間を笑顔にさせてきた. 近年はラーメンやエンジニアリングにも活動範囲を広げ, 国内外問わず高い人気を誇っている. 今, 世界で最も注目されている人間の１人である.</p>
+    <b-tabs>
+      <b-tab title="Links" active="active">
+        <links></links>
+      </b-tab>
+      <b-tab title="Products">
+        <products></products>
+      </b-tab>
+    </b-tabs>
+  </section>
 </template>
 
 <script>
