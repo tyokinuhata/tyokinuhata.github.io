@@ -2,7 +2,7 @@
   <section class="container">
     <div class="icon-wrapper"><img class="icon" src="~static/icon.png" alt="icon" /></div>
     <h1 class="name">Kazukichi</h1>
-    <p class="bio">2015年, ツイッター芸人として活動を開始. 大阪を中心に活動を続け, 数々の人間を笑顔にさせてきた. 近年はラーメンやエンジニアリングにも活動範囲を広げ, 国内外問わず高い人気を誇っている. 今, 世界で最も注目されている人間の１人である.</p>
+    <p class="bio">{{ bio }}</p>
     <b-tabs>
       <b-tab title="Links" active="active">
         <links></links>
@@ -21,6 +21,10 @@
   export default {
     data() {
       return {
+        bio: '2015年, ツイッター芸人として活動を開始. ' +
+             '大阪を中心に活動を続け, 数々の人間を笑顔にさせてきた. ' +
+             '近年はラーメンやエンジニアリングにも活動範囲を広げ, 国内外問わず高い人気を誇っている. ' +
+             '今, 世界で最も注目されている人間の１人である.',
         commands: '',
       }
     },
@@ -62,14 +66,13 @@
           }
 
           if (this.commands === '上上下下左右左右BA') {
-            console.log(this.commands);
             this.$router.push('/majime');
           }
         });
       },
       nikuman() {
         console.log('肉まんを...憎まんでください...')
-      }
+      },
     }
   }
 </script>
