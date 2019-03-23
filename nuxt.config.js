@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 module.exports = {
   /*
   ** Headers of the page
@@ -7,16 +9,18 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'My portfolio' }
+      { hid: 'description', name: 'description', content: 'My portfolio site.' }
     ],
     link: [
         { rel: 'icon', type: 'image/x-icon', href: '/portfolio/favicon.ico' }
     ]
   },
+
   /*
   ** Customize the progress bar color
   */
   loading: { color: '#3B8070' },
+
   /*
   ** Build configuration
   */
@@ -35,10 +39,18 @@ module.exports = {
       }
     }
   },
+
   router: {
-    base: '/portfolio/'
+    base: process.env.APP_ENV === 'dev' ? '/' : '/portfolio/'
   },
+
   modules: [
-    'bootstrap-vue/nuxt'
-  ]
-}
+    '@nuxtjs/dotenv',
+    'bootstrap-vue/nuxt',
+  ],
+
+  env: {
+    APP_ENV: process.env.APP_ENV,
+  },
+
+};
