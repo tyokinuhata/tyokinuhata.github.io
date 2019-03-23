@@ -1,5 +1,11 @@
 require('dotenv').config();
 
+const routerBase = process.env.APP_ENV === 'prd' ? {
+  router: {
+    base: '/portfolio/'
+  }
+} : {};
+
 module.exports = {
   /*
   ** Headers of the page
@@ -40,9 +46,7 @@ module.exports = {
     }
   },
 
-  router: {
-    base: process.env.APP_ENV === 'dev' ? '/' : '/portfolio/'
-  },
+  ...routerBase,
 
   modules: [
     '@nuxtjs/dotenv',
@@ -54,3 +58,4 @@ module.exports = {
   },
 
 };
+
