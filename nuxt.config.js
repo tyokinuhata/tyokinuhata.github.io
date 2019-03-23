@@ -1,5 +1,8 @@
 require('dotenv').config();
 
+/*
+** 開発環境とGitHub Pagesでベースとなるパスを変更する.
+*/
 const routerBase = process.env.APP_ENV === 'prd' ? {
   router: {
     base: '/portfolio/'
@@ -58,4 +61,3 @@ module.exports = {
   },
 
 };
-
