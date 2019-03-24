@@ -10,6 +10,12 @@
       <b-tab title="Products">
         <products></products>
       </b-tab>
+      <b-tab title="Documents">
+        <documents></documents>
+      </b-tab>
+      <b-tab title="Certifications">
+        <certifications></certifications>
+      </b-tab>
     </b-tabs>
   </section>
 </template>
@@ -17,6 +23,8 @@
 <script>
   import Links from '~/components/Links.vue'
   import Products from '~/components/Products.vue'
+  import Documents from '~/components/Documents.vue'
+  import Certifications from '~/components/Certifications.vue'
 
   export default {
     data() {
@@ -30,7 +38,9 @@
     },
     components: {
       Links,
-      Products
+      Products,
+      Documents,
+      Certifications,
     },
     mounted() {
       this.nikuman();
