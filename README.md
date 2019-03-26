@@ -1,15 +1,16 @@
 # portfolio
 ポートフォリオです.
 
-## Build & Setup
+### Setup
 
 ``` bash
-// モジュールのインストール
+$ cp .env.example .env
 $ npm i
-
-// ローカルサーバの起動
 $ npm run dev
+```
 
-// ビルド
+### Build
+
+```bash
 $ npm run generate
 ```
