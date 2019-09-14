@@ -5,12 +5,12 @@
 
 ``` bash
 $ cp .env.example .env
-$ npm i
-$ npm run dev
+$ yarn
+$ yarn dev
 ```
 
 ### Build
 
 ```bash
-$ npm run generate
+$ yarn generate
 ```
