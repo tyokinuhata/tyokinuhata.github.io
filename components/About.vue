@@ -9,7 +9,7 @@
       </div>
       <div class="about_birthday">
         <font-awesome-icon icon="birthday-cake" />
-        <span>1998/06/30</span>
+        <a href="https://www.amazon.jp/hz/wishlist/ls/35F1TMJOKBUB7?ref_=wl_share" target="_blank">1998/06/30</a>
       </div>
     </div>
   </section>
@@ -18,7 +18,6 @@
 <style lang="scss" scoped>
   .about {
     font-family: 'Big Shoulders Text', sans-serif;
-    background: #fff;
     width: 100vw;
     height: 100vh;
     position: relative;
@@ -46,7 +45,7 @@
   .about_name {
     font-size: 64px;
     line-height: 62px;
-    padding-left: 5px;
+    margin-left: 5px;
     &::before {
       content: '';
       display: inline-block;
@@ -68,7 +67,7 @@
   .about_email {
     font-size: 32px;
     line-height: 35px;
-    padding-left: 7px;
+    margin-left: 7px;
     @media (max-width: 550px) {
       font-size: 16px;
       line-height: 20px;
@@ -78,7 +77,7 @@
   .about_birthday {
     font-size: 32px;
     line-height: 35px;
-    padding-left: 5px;
+    margin-left: 7px;
     @media (max-width: 550px) {
       font-size: 16px;
       line-height: 20px;

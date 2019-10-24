@@ -2,7 +2,7 @@
   <div class="container">
     <Nav></Nav>
     <About></About>
-    <!--<Skills></Skills>-->
+    <Skills></Skills>
   </div>
 </template>
 
@@ -20,7 +20,7 @@
     components: {
       Nav,
       About,
-      // Skills,
+      Skills,
     },
     mounted() {
       this.nikuman();

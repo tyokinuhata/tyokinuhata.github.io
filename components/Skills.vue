@@ -1,26 +1,60 @@
 <template>
   <section id="skills" class="skills">
-    <p class="skills_block">
-      Web Design: HTML/CSS/Pug/Sass(scss)/Bootstrap
-    </p>
-    <p class="skills_block">
-      Web Frontend: JavaScript/TypeScript/Vue.js/Nuxt.js/React.js/Angular
-    </p>
-    <p class="skills_block">
-      Web Backend: PHP/Java
-    </p>
-    <p class="skills_block">
-      Network Programming: C/C++
-    </p>
-    <p class="skills_block">
-      Container: Docker/Kubernetes
-    </p>
-    <p class="skills_block">
-      Cloud: AWS/GCP
-    </p>
-    <p class="skills_block">
-      Etc: Git/Agile
-    </p>
+    <h2 class="h2">Skills</h2>
+    <ul>
+      <li class="skills_skill">
+        <font-awesome-icon icon="wrench" />
+        <span>HTML, CSS, Pug, Sass(scss), Bootstrap</span>
+      </li>
+      <li class="skills_skill">
+        <font-awesome-icon icon="wrench" />
+        <span>JavaScript, TypeScript, CoffeeScript, Node.js</span>
+      </li>
+      <li class="skills_skill">
+        <font-awesome-icon icon="wrench" />
+        <span>Vue.js, Nuxt.js, React.js, Angular</span>
+      </li>
+      <li class="skills_skill">
+        <font-awesome-icon icon="wrench" />
+        <span>and related ecosystems</span>
+      </li>
+      <li class="skills_skill">
+        <font-awesome-icon icon="wrench" />
+        <span>PHP, Laravel, Lumen</span>
+      </li>
+      <li class="skills_skill">
+        <font-awesome-icon icon="wrench" />
+        <span>and a few backend programming languages</span>
+      </li>
+      <li class="skills_skill">
+        <font-awesome-icon icon="wrench" />
+        <span>Docker, Kubernetes</span>
+      </li>
+      <li class="skills_skill">
+        <font-awesome-icon icon="wrench" />
+        <span>and related ecosystems</span>
+      </li>
+      <li class="skills_skill">
+        <font-awesome-icon icon="wrench" />
+        <span>MySQL, PostgreSQL, SQLite, Redis</span>
+      </li>
+      <li class="skills_skill">
+        <font-awesome-icon icon="wrench" />
+        <span>AWS, GCP, Heroku</span>
+      </li>
+      <li class="skills_skill">
+        <font-awesome-icon icon="wrench" />
+        <span>TCP/IP, Cisco Router, Catalyst Switch, GNS3</span>
+      </li>
+      <li class="skills_skill">
+        <font-awesome-icon icon="wrench" />
+        <span>Network Programming(C, C++)</span>
+      </li>
+      <li class="skills_skill">
+        <font-awesome-icon icon="wrench" />
+        <span>Git, CircleCI, Agile</span>
+      </li>
+    </ul>
   </section>
 </template>
 
@@ -35,7 +69,11 @@
     flex-direction: column;
   }
 
-  .skills_block {
+  .skills_skill {
+    list-style-type: none;
     font-size: 20px;
+    @media (max-width: 600px) {
+      font-size: 16px;
+    }
   }
 </style>
