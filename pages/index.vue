@@ -4,6 +4,7 @@
     <About></About>
     <Skills></Skills>
     <Histories></Histories>
+    <Certifications></Certifications>
   </div>
 </template>
 
@@ -12,6 +13,7 @@
   import About from '~/components/About.vue';
   import Skills from '~/components/Skills.vue';
   import Histories from '~/components/Histories.vue';
+  import Certifications from '~/components/Certifications.vue';
 
   export default {
     data() {
@@ -24,6 +26,7 @@
       About,
       Skills,
       Histories,
+      Certifications,
     },
     mounted() {
       this.nikuman();

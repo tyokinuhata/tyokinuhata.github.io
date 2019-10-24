@@ -10,7 +10,7 @@
           <b-nav-item href="#about">About</b-nav-item>
           <b-nav-item href="#skills">Skills</b-nav-item>
           <b-nav-item href="#histories">Histories</b-nav-item>
-          <b-nav-item href="#">Certifications</b-nav-item>
+          <b-nav-item href="#certifications">Certifications</b-nav-item>
           <b-nav-item href="#">Products</b-nav-item>
           <b-nav-item href="#">Links</b-nav-item>
         </b-navbar-nav>
