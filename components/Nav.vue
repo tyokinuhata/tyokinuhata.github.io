@@ -8,7 +8,7 @@
       <b-collapse id="nav-collapse" is-nav vertical>
         <b-navbar-nav>
           <b-nav-item href="#about">About</b-nav-item>
-          <b-nav-item href="#">Skills</b-nav-item>
+          <b-nav-item href="#skills">Skills</b-nav-item>
           <b-nav-item href="#">Experience</b-nav-item>
           <b-nav-item href="#">Certifications</b-nav-item>
           <b-nav-item href="#">Products</b-nav-item>

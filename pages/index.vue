@@ -1,13 +1,15 @@
 <template>
-  <div>
+  <div class="container">
     <Nav></Nav>
     <About></About>
+    <!--<Skills></Skills>-->
   </div>
 </template>
 
 <script>
   import Nav from '~/components/Nav.vue';
   import About from '~/components/About.vue';
+  import Skills from '~/components/Skills.vue';
 
   export default {
     data() {
@@ -18,6 +20,7 @@
     components: {
       Nav,
       About,
+      // Skills,
     },
     mounted() {
       this.nikuman();
@@ -67,4 +70,10 @@
 <style lang="scss">
   @import '~assets/scss/_mixin.scss';
   @import '~assets/scss/_base.scss';
+
+  html, head, body, .container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
 </style>

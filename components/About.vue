@@ -11,6 +11,7 @@
 
 <style lang="scss" scoped>
   .about {
+    font-family: 'Big Shoulders Text', sans-serif;
     background: #fff;
     width: 100vw;
     height: 100vh;
@@ -30,6 +31,10 @@
     &:first-letter {
       color: #dc143c;
     }
+    @media (max-width: 550px) {
+      font-size: 64px;
+      line-height: 58px;
+    }
   }
 
   .about_name {
@@ -44,17 +49,33 @@
       background-image: url('~static/icon.png');
       background-size: contain;
     }
+    @media (max-width: 550px) {
+      font-size: 32px;
+      line-height: 28px;
+      &::before {
+        width: 26px;
+        height: 26px;
+      }
+    }
   }
 
   .about_email {
     font-size: 32px;
     line-height: 35px;
     padding-left: 7px;
+    @media (max-width: 550px) {
+      font-size: 16px;
+      line-height: 20px;
+    }
   }
 
   .about_birthday {
     font-size: 32px;
     line-height: 35px;
     padding-left: 5px;
+    @media (max-width: 550px) {
+      font-size: 16px;
+      line-height: 20px;
+    }
   }
 </style>
