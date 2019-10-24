@@ -4,27 +4,27 @@
     <ul>
       <li class="histories_history">
         <font-awesome-icon icon="school" />
-        <a href="http://www2.kobe-c.ed.jp/snk-hs/" target="_blank">神戸市立神港高等学校</a>
+        <a href="http://www2.kobe-c.ed.jp/snk-hs/" target="_blank" class="histories_historyLink">神戸市立神港高等学校</a>
         <span>情報処理科 (2014 - 2017)</span>
       </li>
       <li class="histories_history">
         <font-awesome-icon icon="school" />
-        <a href="https://www.oic.ac.jp/" target="_blank">大阪情報コンピュータ専門学校</a>
+        <a href="https://www.oic.ac.jp/" target="_blank" class="histories_historyLink">大阪情報コンピュータ専門学校</a>
         <span>総合情報メディア学科 (2017 - 現在)</span>
       </li>
       <li class="histories_history">
         <font-awesome-icon icon="building" />
-        <a href="https://chatbox-inc.com/" target="_blank">株式会社chatbox</a>
+        <a href="https://chatbox-inc.com/" target="_blank" class="histories_historyLink">株式会社chatbox</a>
         <span>(2017 - 現在)</span>
       </li>
       <li class="histories_history">
         <font-awesome-icon icon="building" />
-        <a href="https://www.inform.co.jp/" target="_blank">インフォームシステム株式会社</a>
+        <a href="https://www.inform.co.jp/" target="_blank" class="histories_historyLink">インフォームシステム株式会社</a>
         <span>(2017 - 2018)</span>
       </li>
       <li class="histories_history">
         <font-awesome-icon icon="building" />
-        <a href="https://geeks.ne.jp/" target="_blank">GEEKS株式会社</a>
+        <a href="https://geeks.ne.jp/" target="_blank" class="histories_historyLink">GEEKS株式会社</a>
         <span>(2018 - 現在)</span>
       </li>
     </ul>
@@ -45,6 +45,12 @@
   .histories_history {
     list-style-type: none;
     font-size: 20px;
+    &Link {
+      color: #626063;
+      &:hover {
+        color: #dc143c;
+      }
+    }
     @media (max-width: 600px) {
       font-size: 16px;
     }
