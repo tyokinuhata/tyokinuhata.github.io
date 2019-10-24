@@ -27,6 +27,15 @@
         <a href="https://geeks.ne.jp/" target="_blank" class="histories_historyLink">GEEKS株式会社</a>
         <span>(2018 - 現在)</span>
       </li>
+      <li class="histories_history">
+        <font-awesome-icon icon="bicycle" />
+        <span>大阪 - 名古屋 ママチャリ走破 (2019)</span>
+      </li>
+      <li class="histories_history">
+        <font-awesome-icon icon="trophy" />
+        <a href="https://spajam.jp/2019/entry/kansai/" target="_blank" class="histories_historyLink">SPAJAM2019 関西予選</a>
+        <span>最優秀賞受賞 (2019)</span>
+      </li>
     </ul>
   </section>
 </template>
