@@ -7,9 +7,26 @@
         <font-awesome-icon icon="envelope" />
         <span>kazukiti201@gmail.com</span>
       </div>
+      <div class="about_sns">
+        <a href="https://github.com/tyokinuhata" target="_blank" class="about_snsLink">
+          <font-awesome-icon :icon="['fab', 'github']" />
+        </a>
+        <a href="https://twitter.com/h_tyokinuhata" target="_blank" class="about_snsLink">
+          <font-awesome-icon :icon="['fab', 'twitter']" />
+        </a>
+        <a href="https://www.instagram.com/tyokinuhata/" target="_blank" class="about_snsLink">
+          <font-awesome-icon :icon="['fab', 'instagram']" />
+        </a>
+        <a href="http://kazukichi.hatenadiary.com/" target="_blank" class="about_snsLink">
+          <font-awesome-icon icon="question" />
+        </a>
+        <a href="https://qiita.com/h_tyokinuhata" target="_blank" class="about_snsLink">
+          <font-awesome-icon icon="search" />
+        </a>
+      </div>
       <div class="about_birthday">
         <font-awesome-icon icon="birthday-cake" />
-        <a href="https://www.amazon.jp/hz/wishlist/ls/35F1TMJOKBUB7?ref_=wl_share" target="_blank">1998/06/30</a>
+        <a href="https://www.amazon.jp/hz/wishlist/ls/35F1TMJOKBUB7?ref_=wl_share" target="_blank" class="about_birthdayLink">1998/06/30</a>
       </div>
     </div>
   </section>
@@ -74,10 +91,32 @@
     }
   }
 
+  .about_sns {
+    font-size: 32px;
+    line-height: 35px;
+    margin-left: 7px;
+    &Link {
+      color: #626063;
+      &:hover {
+        color: #dc143c;
+      }
+    }
+    @media (max-width: 550px) {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+
   .about_birthday {
     font-size: 32px;
     line-height: 35px;
     margin-left: 7px;
+    &Link {
+      color: #626063;
+      &:hover {
+        color: #dc143c;
+      }
+    }
     @media (max-width: 550px) {
       font-size: 16px;
       line-height: 20px;
