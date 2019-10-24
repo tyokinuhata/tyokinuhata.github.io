@@ -3,6 +3,7 @@
     <Nav></Nav>
     <About></About>
     <Skills></Skills>
+    <Histories></Histories>
   </div>
 </template>
 
@@ -10,6 +11,7 @@
   import Nav from '~/components/Nav.vue';
   import About from '~/components/About.vue';
   import Skills from '~/components/Skills.vue';
+  import Histories from '~/components/Histories.vue';
 
   export default {
     data() {
@@ -21,6 +23,7 @@
       Nav,
       About,
       Skills,
+      Histories,
     },
     mounted() {
       this.nikuman();
