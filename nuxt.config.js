@@ -21,7 +21,8 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'My portfolio site.' }
     ],
     link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/portfolio/favicon.ico' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap' },
+      { rel: 'icon', type: 'image/x-icon', href: '/portfolio/favicon.ico' }
     ]
   },
 

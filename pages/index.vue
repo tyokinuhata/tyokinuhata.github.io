@@ -1,46 +1,23 @@
 <template>
-  <section class="container">
-    <div class="icon-wrapper"><img class="icon" src="~static/icon.png" alt="icon" /></div>
-    <h1 class="name">Kazukichi</h1>
-    <p class="bio">{{ bio }}</p>
-    <b-tabs>
-      <b-tab title="Links" active="active">
-        <links></links>
-      </b-tab>
-      <b-tab title="Products">
-        <products></products>
-      </b-tab>
-      <b-tab title="Documents">
-        <documents></documents>
-      </b-tab>
-      <b-tab title="Certifications">
-        <certifications></certifications>
-      </b-tab>
-    </b-tabs>
-  </section>
+  <div>
+    <Nav></Nav>
+    <About></About>
+  </div>
 </template>
 
 <script>
-  import Links from '~/components/Links.vue'
-  import Products from '~/components/Products.vue'
-  import Documents from '~/components/Documents.vue'
-  import Certifications from '~/components/Certifications.vue'
+  import Nav from '~/components/Nav.vue';
+  import About from '~/components/About.vue';
 
   export default {
     data() {
       return {
-        bio: '2015年, ツイッター芸人として活動を開始. ' +
-             '大阪を中心に活動を続け, 数々の人間を笑顔にさせてきた. ' +
-             '近年はラーメンやエンジニアリングにも活動範囲を広げ, 国内外問わず高い人気を誇っている. ' +
-             '今, 世界で最も注目されているエンターテイナーの１人である.',
         commands: '',
       }
     },
     components: {
-      Links,
-      Products,
-      Documents,
-      Certifications,
+      Nav,
+      About,
     },
     mounted() {
       this.nikuman();
@@ -90,31 +67,4 @@
 <style lang="scss">
   @import '~assets/scss/_mixin.scss';
   @import '~assets/scss/_base.scss';
-
-  .container {
-    margin: 0 auto;
-    max-width: 100%;
-    width: 650px;
-    height: 100%;
-  }
-
-  .icon-wrapper {
-    text-align: center;
-  }
-
-  .icon {
-    width: 200px;
-    @include desktop() {
-      margin-top: 50px;
-    }
-  }
-
-  .name {
-    text-align: center;
-  }
-
-  .bio {
-    line-height: 2em;
-    text-align: left;
-  }
 </style>
