@@ -55,10 +55,20 @@ module.exports = {
   modules: [
     '@nuxtjs/dotenv',
     'bootstrap-vue/nuxt',
+    'nuxt-fontawesome',
   ],
 
   env: {
     APP_ENV: process.env.APP_ENV,
+  },
+
+  fontawesome: {
+    imports: [
+      {
+        set: '@fortawesome/free-solid-svg-icons',
+        icons: ['fas']
+      }
+    ]
   },
 
 };

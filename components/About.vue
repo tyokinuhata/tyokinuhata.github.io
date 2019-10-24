@@ -3,8 +3,14 @@
     <div class="about_wrapper">
       <div class="about_hn">KAZUKICHI</div>
       <div class="about_name">Tobita Kazuki</div>
-      <div class="about_email">📧 kazukiti201@gmail.com</div>
-      <div class="about_birthday">🎂 1998/06/30</div>
+      <div class="about_email">
+        <font-awesome-icon icon="envelope" />
+        <span>kazukiti201@gmail.com</span>
+      </div>
+      <div class="about_birthday">
+        <font-awesome-icon icon="birthday-cake" />
+        <span>1998/06/30</span>
+      </div>
     </div>
   </section>
 </template>
