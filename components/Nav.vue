@@ -11,8 +11,8 @@
           <b-nav-item href="#skills">Skills</b-nav-item>
           <b-nav-item href="#histories">Histories</b-nav-item>
           <b-nav-item href="#certifications">Certifications</b-nav-item>
-          <b-nav-item href="#">Products</b-nav-item>
-          <b-nav-item href="#">Links</b-nav-item>
+          <b-nav-item href="#products">Products</b-nav-item>
+          <b-nav-item href="#documents">Documents</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
