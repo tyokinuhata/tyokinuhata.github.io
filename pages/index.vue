@@ -1,10 +1,12 @@
 <template>
-  <div class="container">
+  <div>
     <Nav></Nav>
-    <About></About>
-    <Skills></Skills>
-    <Histories></Histories>
-    <Certifications></Certifications>
+    <main class="contents">
+      <About></About>
+      <Skills></Skills>
+      <Histories></Histories>
+      <Certifications></Certifications>
+    </main>
   </div>
 </template>
 
@@ -77,9 +79,9 @@
   @import '~assets/scss/_mixin.scss';
   @import '~assets/scss/_base.scss';
 
-  html, head, body, .container {
-    width: 100%;
-    margin: 0;
-    padding: 0;
+  .contents {
+    height: 100vh;
+    overflow: scroll;
+    scroll-behavior: smooth;
   }
 </style>

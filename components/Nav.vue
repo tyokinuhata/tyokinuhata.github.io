@@ -1,5 +1,5 @@
 <template>
-  <section class="header">
+  <nav class="header">
     <b-navbar toggleable="lg" class="navbar-kazukichi fixed-top">
       <b-navbar-brand href="#">Kazukichi</b-navbar-brand>
 
@@ -16,7 +16,7 @@
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
-  </section>
+  </nav>
 </template>
 
 <style lang="scss" scoped>
