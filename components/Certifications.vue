@@ -1,5 +1,6 @@
 <template>
   <section id="certifications" class="certifications">
+    <h2>Certificates</h2>
     <ul>
       <li class="certifications_certificate">
         <font-awesome-icon icon="pencil-alt" />

@@ -10,6 +10,13 @@ body {
   animation: fadeIn 1.5s ease 0s 1 normal;
 }
 
+a {
+  color: #626063;
+  &:hover {
+    color: #dc143c;
+  }
+}
+
 ::selection {
   background: #ffe4e1;
 }

@@ -1,6 +1,6 @@
 <template>
   <section id="skills" class="skills">
-    <h2 class="h2">Skills</h2>
+    <h2>Skills</h2>
     <ul>
       <li class="skills_skill">
         <font-awesome-icon icon="wrench" />
