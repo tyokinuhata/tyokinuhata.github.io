@@ -1,7 +1,7 @@
 <template>
   <section id="certifications" class="certifications">
     <h2>Certificates</h2>
-    <ul>
+    <ul class="certifications_wrapper">
       <li class="certifications_certificate">
         <font-awesome-icon icon="pencil-alt" />
         <span>ITパスポート試験 (2016)</span>
@@ -59,6 +59,10 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+  }
+
+  .certifications_wrapper {
+    padding: 0;
   }
 
   .certifications_certificate {
