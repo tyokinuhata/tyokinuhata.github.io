@@ -1,7 +1,7 @@
 <template>
   <section id="skills" class="skills">
     <h2>Skills</h2>
-    <ul>
+    <ul class="skills_wrapper">
       <li class="skills_skill">
         <font-awesome-icon icon="wrench" />
         <span>HTML, CSS, Pug, Sass(scss), Bootstrap</span>
@@ -67,6 +67,10 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+  }
+
+  .skills_wrapper {
+    padding: 0;
   }
 
   .skills_skill {
