@@ -41,10 +41,14 @@
   }
 
   .about_wrapper {
+    width: 415px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform : translate(-50%, -50%);
+    @media (max-width: 550px) {
+      width: 220px;
+    }
   }
 
   .about_hn {
@@ -86,8 +90,8 @@
     line-height: 35px;
     margin-left: 7px;
     @media (max-width: 550px) {
-      font-size: 16px;
-      line-height: 20px;
+      font-size: 24px;
+      line-height: 25px;
     }
   }
 
@@ -96,8 +100,8 @@
     line-height: 35px;
     margin-left: 7px;
     @media (max-width: 550px) {
-      font-size: 16px;
-      line-height: 20px;
+      font-size: 24px;
+      line-height: 25px;
     }
   }
 
@@ -112,8 +116,8 @@
       }
     }
     @media (max-width: 550px) {
-      font-size: 16px;
-      line-height: 20px;
+      font-size: 24px;
+      line-height: 25px;
     }
   }
 </style>
