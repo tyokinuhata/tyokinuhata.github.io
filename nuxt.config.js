@@ -21,7 +21,8 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'My portfolio site.' }
     ],
     link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/portfolio/favicon.ico' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap' },
+      { rel: 'icon', type: 'image/x-icon', href: '/portfolio/favicon.ico' }
     ]
   },
 
@@ -54,10 +55,24 @@ module.exports = {
   modules: [
     '@nuxtjs/dotenv',
     'bootstrap-vue/nuxt',
+    'nuxt-fontawesome',
   ],
 
   env: {
     APP_ENV: process.env.APP_ENV,
+  },
+
+  fontawesome: {
+    imports: [
+      {
+        set: '@fortawesome/free-solid-svg-icons',
+        icons: ['fas']
+      },
+      {
+        set: '@fortawesome/free-brands-svg-icons',
+        icons: ['fab']
+      }
+    ]
   },
 
 };
