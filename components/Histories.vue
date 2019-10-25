@@ -83,13 +83,13 @@
   }
 
   .histories_wrapper {
-    max-width: 750px;
+    max-width: 700px;
     width: 100%;
   }
 
   .histories_history {
     list-style-type: none;
-    font-size: 20px;
+    font-size: 18px;
     @media (max-width: 600px) {
       font-size: 16px;
     }

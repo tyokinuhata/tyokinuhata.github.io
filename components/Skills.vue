@@ -71,7 +71,7 @@
 
   .skills_skill {
     list-style-type: none;
-    font-size: 20px;
+    font-size: 18px;
     @media (max-width: 600px) {
       font-size: 16px;
     }
