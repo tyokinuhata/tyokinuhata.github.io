@@ -41,3 +41,5 @@ export type StudyHistories = Array<StudyHistory>
 export type JobHistory = History
 
 export type JobHistories = Array<JobHistory>
+
+export type Skills = Array<string>
