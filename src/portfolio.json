@@ -9,7 +9,8 @@
         },
         "email": "kazukiti201@gmail.com",
         "location": "Hyogo",
-        "birthday": "30/06/1998"
+        "birthday": "30/06/1998",
+        "like": ["Music", "Art", "Books", "Cycling"]
     },
     "links": [
         {
@@ -115,6 +116,11 @@
     ],
     "job_histories": [
         {
+            "name": "インフォームシステム株式会社",
+            "begin": 2017,
+            "end": 2018
+        },
+        {
             "name": "株式会社chatbox",
             "begin": 2017,
             "end": 2020
@@ -126,11 +132,12 @@
         },
         {
             "name": "さくらインターネット株式会社",
-            "begin": 2021
+            "begin": 2020
         },
         {
             "name": "株式会社イエラエセキュリティ",
             "begin": 2022
         }
-    ]
+    ],
+    "skills": ["PHP", "Laravel", "JavaScript", "CoffeeScript", "TypeScript", "Angular", "Vue.js", "React", "Python", "Django", "Flask", "Golang", "Gin", "Docker", "Kubernetes"]
 }

@@ -9,6 +9,7 @@ export interface About {
   email: string;
   location: string;
   birthday: string;
+  like: Array<string>;
 }
 
 export interface Link {

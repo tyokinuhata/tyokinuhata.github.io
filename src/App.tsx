@@ -15,10 +15,11 @@ function App() {
       <img src={icon} className="App-logo" alt="logo" width="200" />
       <h1>About</h1>
       <ul>
-        <li>Name: {about.name.hn}({about.name.rn.first} {about.name.rn.last})</li>
-        <li>Email: <a href={`mailto:${about.email}`}>{about.email}</a></li>
-        <li>Location: {about.location}</li>
-        <li>Birthday: {about.birthday}</li>
+        <li>🤓 Name: {about.name.hn}({about.name.rn.first} {about.name.rn.last})</li>
+        <li>✉️ Email: <a href={`mailto:${about.email}`}>{about.email}</a></li>
+        <li>📍 Location: {about.location}</li>
+        <li>🎂 Birthday: {about.birthday}</li>
+        <li>💖 Like: {about.like.join(' / ')}</li>
       </ul>
       <h1>Links</h1>
       <ul>
