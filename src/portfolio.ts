@@ -1,4 +1,5 @@
 export interface About {
+  title: string;
   name: {
     key: string;
     value: {
@@ -42,14 +43,20 @@ export interface Link {
   url: string;
 }
 
-export type Links = Array<Link>
+export interface Links {
+  title: string;
+  values: Array<Link>
+}
 
 export interface Certification {
   name: string;
   year: number;
 }
 
-export type Certifications = Array<Certification>
+export interface Certifications {
+  title: string;
+  values: Array<Certification>
+}
 
 interface History {
   name: string;
@@ -62,14 +69,26 @@ export interface StudyHistory extends History {
   dept: string;
 }
 
-export type StudyHistories = Array<StudyHistory>
+export interface StudyHistories {
+  title: string;
+  values: Array<StudyHistory>;
+}
 
 export type JobHistory = History
 
-export type JobHistories = Array<JobHistory>
+export interface JobHistories {
+  title: string;
+  values: Array<JobHistory>;
+}
 
 export type OtherHistory = History
 
-export type OtherHistories = Array<OtherHistory>
+export interface OtherHistories {
+  title: string;
+  values: Array<OtherHistory>;
+}
 
-export type Skills = Array<string>
+export interface Skills {
+  title: string;
+  values: Array<string>;
+}

@@ -1,5 +1,6 @@
 {
     "about": {
+        "title": "About",
         "name": {
             "key": "Name",
             "value": {
@@ -37,162 +38,180 @@
             "icon": "📜"
         }
     },
-    "links": [
-        {
-            "name": "Twitter",
-            "url": "https://twitter.com/h_tyokinuhata"
-        },
-        {
-            "name": "GitHub",
-            "url": "https://github.com/tyokinuhata"
-        },
-        {
-            "name": "Instagram",
-            "url": "https://www.instagram.com/tyokinuhata/"
-        },
-        {
-            "name": "Blog",
-            "url": "http://kazukichi.hatenadiary.com/"
-        },
-        {
-            "name": "Qiita",
-            "url": "https://qiita.com/h_tyokinuhata"
-        },
-        {
-            "name": "Pixiv",
-            "url": "https://www.pixiv.net/users/4783175"
-        },
-        {
-            "name": "Studyplus",
-            "url": "https://www.studyplus.jp/users/h_tyokinuhata"
-        },
-        {
-            "name": "Wantedly",
-            "url": "https://www.wantedly.com/id/kazukichi"
-        },
-        {
-            "name": "Wishlist",
-            "url": "https://www.amazon.jp/hz/wishlist/ls/35F1TMJOKBUB7?ref_=wl_share"
-        }
-    ],
-    "certifications": [
-        {
-            "name": "ITパスポート試験",
-            "year": 2016
-        },
-        {
-            "name": "基本情報技術者試験",
-            "year": 2016
-        },
-        {
-            "name": "情報セキュリティマネジメント試験",
-            "year": 2017
-        },
-        {
-            "name": "C言語プログラミング能力認定試験 3級",
-            "year": 2017
-        },
-        {
-            "name": "応用情報技術者試験",
-            "year": 2017
-        },
-        {
-            "name": "C言語プログラミング能力認定試験 2級",
-            "year": 2018
-        },
-        {
-            "name": "工事担任者 DD第三種",
-            "year": 2018
-        },
-        {
-            "name": ".com Master ADVANCE★★",
-            "year": 2018
-        },
-        {
-            "name": "第四級アマチュア無線技士",
-            "year": 2018
-        },
-        {
-            "name": "危険物取扱者 乙種4類",
-            "year": 2018
-        },
-        {
-            "name": "情報処理安全確保支援士",
-            "year": 2019
-        },
-        {
-            "name": "普通自動車第一種運転免許(AT限定)",
-            "year": 2021
-        }
-    ],
-    "study_histories": [
-        {
-            "name": "神戸市立神港高等学校",
-            "dept": "情報処理科",
-            "url": "http://www2.kobe-c.ed.jp/snk-hs/?page_id=42",
-            "begin": 2014,
-            "end": 2017
-        },
-        {
-            "name": "大阪情報コンピュータ専門学校",
-            "dept": "総合情報メディア学科ネットワークセキュリティ専攻",
-            "url": "https://www.oic.ac.jp/course/it/security.html",
-            "begin": 2017,
-            "end": 2021
-        }
-    ],
-    "job_histories": [
-        {
-            "name": "インフォームシステム株式会社",
-            "url": "https://www.inform.co.jp/",
-            "begin": 2017,
-            "end": 2018
-        },
-        {
-            "name": "株式会社chatbox",
-            "url": "https://chatbox-inc.com/",
-            "begin": 2017,
-            "end": 2020
-        },
-        {
-            "name": "GEEKS株式会社",
-            "url": "https://geeks.ne.jp/",
-            "begin": 2018,
-            "end": 2020
-        },
-        {
-            "name": "さくらインターネット株式会社",
-            "url": "https://www.sakura.ad.jp/",
-            "begin": 2020
-        },
-        {
-            "name": "株式会社イエラエセキュリティ",
-            "url": "https://ierae.co.jp/",
-            "begin": 2022
-        }
-    ],
-    "other_histories": [
-        {
-            "name": "SPAJAM2019 関西予選 最優秀賞",
-            "url": "https://history.spajam.jp/2019/entry/kansai/",
-            "begin": 2019
-        },
-        {
-            "name": "ママチャリ 大阪 - 名古屋",
-            "begin": 2019
-        },
-        {
-            "name": "ママチャリ 淡路島一周",
-            "begin": 2020
-        },
-        {
-            "name": "ママチャリ 琵琶湖一周",
-            "begin": 2020
-        },
-        {
-            "name": "ママチャリ 志賀島一周",
-            "begin": 2021
-        }
-    ],
-    "skills": ["PHP", "Laravel", "JavaScript", "CoffeeScript", "TypeScript", "Sass", "Angular", "Vue.js", "React", "Python", "Django", "Flask", "Golang", "Gin", "Docker", "Kubernetes", "IaC", "CI/CD"]
+    "links": {
+        "title": "links",
+        "values": [
+            {
+                "name": "Twitter",
+                "url": "https://twitter.com/h_tyokinuhata"
+            },
+            {
+                "name": "GitHub",
+                "url": "https://github.com/tyokinuhata"
+            },
+            {
+                "name": "Instagram",
+                "url": "https://www.instagram.com/tyokinuhata/"
+            },
+            {
+                "name": "Blog",
+                "url": "http://kazukichi.hatenadiary.com/"
+            },
+            {
+                "name": "Qiita",
+                "url": "https://qiita.com/h_tyokinuhata"
+            },
+            {
+                "name": "Pixiv",
+                "url": "https://www.pixiv.net/users/4783175"
+            },
+            {
+                "name": "Studyplus",
+                "url": "https://www.studyplus.jp/users/h_tyokinuhata"
+            },
+            {
+                "name": "Wantedly",
+                "url": "https://www.wantedly.com/id/kazukichi"
+            },
+            {
+                "name": "Wishlist",
+                "url": "https://www.amazon.jp/hz/wishlist/ls/35F1TMJOKBUB7?ref_=wl_share"
+            }
+        ]
+    },
+    "certifications": {
+        "title": "Certifications",
+        "values": [
+            {
+                "name": "ITパスポート試験",
+                "year": 2016
+            },
+            {
+                "name": "基本情報技術者試験",
+                "year": 2016
+            },
+            {
+                "name": "情報セキュリティマネジメント試験",
+                "year": 2017
+            },
+            {
+                "name": "C言語プログラミング能力認定試験 3級",
+                "year": 2017
+            },
+            {
+                "name": "応用情報技術者試験",
+                "year": 2017
+            },
+            {
+                "name": "C言語プログラミング能力認定試験 2級",
+                "year": 2018
+            },
+            {
+                "name": "工事担任者 DD第三種",
+                "year": 2018
+            },
+            {
+                "name": ".com Master ADVANCE★★",
+                "year": 2018
+            },
+            {
+                "name": "第四級アマチュア無線技士",
+                "year": 2018
+            },
+            {
+                "name": "危険物取扱者 乙種4類",
+                "year": 2018
+            },
+            {
+                "name": "情報処理安全確保支援士",
+                "year": 2019
+            },
+            {
+                "name": "普通自動車第一種運転免許(AT限定)",
+                "year": 2021
+            }
+        ]
+    },
+    "study_histories": {
+        "title": "Study Histories",
+        "values": [
+            {
+                "name": "神戸市立神港高等学校",
+                "dept": "情報処理科",
+                "url": "http://www2.kobe-c.ed.jp/snk-hs/?page_id=42",
+                "begin": 2014,
+                "end": 2017
+            },
+            {
+                "name": "大阪情報コンピュータ専門学校",
+                "dept": "総合情報メディア学科ネットワークセキュリティ専攻",
+                "url": "https://www.oic.ac.jp/course/it/security.html",
+                "begin": 2017,
+                "end": 2021
+            }
+        ]
+    },
+    "job_histories": {
+        "title": "Job Histories",
+        "values": [
+            {
+                "name": "インフォームシステム株式会社",
+                "url": "https://www.inform.co.jp/",
+                "begin": 2017,
+                "end": 2018
+            },
+            {
+                "name": "株式会社chatbox",
+                "url": "https://chatbox-inc.com/",
+                "begin": 2017,
+                "end": 2020
+            },
+            {
+                "name": "GEEKS株式会社",
+                "url": "https://geeks.ne.jp/",
+                "begin": 2018,
+                "end": 2020
+            },
+            {
+                "name": "さくらインターネット株式会社",
+                "url": "https://www.sakura.ad.jp/",
+                "begin": 2020
+            },
+            {
+                "name": "株式会社イエラエセキュリティ",
+                "url": "https://ierae.co.jp/",
+                "begin": 2022
+            }
+        ]
+    },
+    "other_histories": {
+        "title": "Other Histories",
+        "values": [
+            {
+                "name": "SPAJAM2019 関西予選 最優秀賞",
+                "url": "https://history.spajam.jp/2019/entry/kansai/",
+                "begin": 2019
+            },
+            {
+                "name": "ママチャリ 大阪 - 名古屋",
+                "begin": 2019
+            },
+            {
+                "name": "ママチャリ 淡路島一周",
+                "begin": 2020
+            },
+            {
+                "name": "ママチャリ 琵琶湖一周",
+                "begin": 2020
+            },
+            {
+                "name": "ママチャリ 志賀島一周",
+                "begin": 2021
+            }
+        ]
+    },
+    "skills": {
+        "title": "Skills",
+        "values": ["PHP", "Laravel", "JavaScript", "CoffeeScript", "TypeScript", "Sass", "Angular", "Vue.js", "React", "Python", "Django", "Flask", "Golang", "Gin", "Docker", "Kubernetes", "IaC", "CI/CD"]
+    }
 }
