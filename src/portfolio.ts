@@ -1,16 +1,40 @@
 export interface About {
   name: {
-    rn: {
-      first: string;
-      last: string;
-    };
-    hn: string;
+    key: string;
+    value: {
+      rn: {
+        first: string;
+        last: string;
+      };
+      hn: string;
+    },
+    icon: string;
   },
-  email: string;
-  location: string;
-  birthday: string;
-  like: Array<string>;
-  bio: string;
+  email: {
+    key: string;
+    value: string;
+    icon: string;
+  };
+  location: {
+    key: string;
+    value: string;
+    icon: string;
+  };
+  birthday: {
+    key: string;
+    value: string;
+    icon: string;
+  };
+  like: {
+    key: string;
+    value: Array<string>;
+    icon: string;
+  }
+  bio: {
+    key: string;
+    value: string;
+    icon: string;
+  };
 }
 
 export interface Link {

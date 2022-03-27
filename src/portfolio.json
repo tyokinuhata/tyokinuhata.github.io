@@ -1,17 +1,41 @@
 {
     "about": {
         "name": {
-            "rn": {
-                "first": "Kazuki",
-                "last": "TOBITA"
+            "key": "Name",
+            "value": {
+                "rn": {
+                    "first": "Kazuki",
+                    "last": "TOBITA"
+                },
+                "hn": "Kazukichi"
             },
-            "hn": "Kazukichi"
+            "icon": "🤓"
         },
-        "email": "kazukiti201@gmail.com",
-        "location": "Hyogo",
-        "birthday": "30/06/1998",
-        "like": ["Music", "Art", "Books", "Cycling", "Tetris"],
-        "bio": "Webとインフラの間で生きています"
+        "email": {
+            "key": "Email",
+            "value": "kazukiti201@gmail.com",
+            "icon": "✉️"
+        },
+        "location": {
+            "key": "Location",
+            "value": "Hyogo",
+            "icon": "📍"
+        },
+        "birthday": {
+            "key": "Birthday",
+            "value": "30/06/1998",
+            "icon": "🎂"
+        },
+        "like": {
+            "key": "Like",
+            "value": ["Music", "Art", "Books", "Cycling", "Tetris"],
+            "icon": "💖"
+        },
+        "bio": {
+            "key": "Bio",
+            "value": "Webとインフラの間で生きています",
+            "icon": "📜"
+        }
     },
     "links": [
         {

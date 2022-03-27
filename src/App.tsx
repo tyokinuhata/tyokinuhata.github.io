@@ -18,12 +18,12 @@ function App() {
       <img src={icon} alt="icon" width="200" />
       <h1>About</h1>
       <ul>
-        <li>🤓 Name: {about.name.hn}({about.name.rn.first} {about.name.rn.last})</li>
-        <li>✉️ Email: <a href={`mailto:${about.email}`}>{about.email}</a></li>
-        <li>📍 Location: {about.location}</li>
-        <li>🎂 Birthday: {about.birthday}</li>
-        <li>💖 Like: {about.like.join(' / ')}</li>
-        <li>📜 Bio: {about.bio}</li>
+        <li>{about.name.icon} {about.name.key}: {about.name.value.hn}({about.name.value.rn.first} {about.name.value.rn.last})</li>
+        <li>{about.email.icon} {about.email.key}: <a href={`mailto:${about.email.value}`}>{about.email.value}</a></li>
+        <li>{about.location.icon} {about.location.key}: {about.location.value}</li>
+        <li>{about.birthday.icon} {about.birthday.key}: {about.birthday.value}</li>
+        <li>{about.like.icon} {about.like.key}: {about.like.value.join(' / ')}</li>
+        <li>{about.bio.icon} {about.bio.key}: {about.bio.value}</li>
       </ul>
       <h1>Links</h1>
       <ul>
