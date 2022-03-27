@@ -170,5 +170,5 @@
             "begin": 2021
         }
     ],
-    "skills": ["PHP", "Laravel", "JavaScript", "CoffeeScript", "TypeScript", "Sass", "Angular", "Vue.js", "React", "Python", "Django", "Flask", "Golang", "Gin", "Docker", "Kubernetes", "IaC"]
+    "skills": ["PHP", "Laravel", "JavaScript", "CoffeeScript", "TypeScript", "Sass", "Angular", "Vue.js", "React", "Python", "Django", "Flask", "Golang", "Gin", "Docker", "Kubernetes", "IaC", "CI/CD"]
 }
