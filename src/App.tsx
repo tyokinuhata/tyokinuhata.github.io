@@ -2,7 +2,7 @@ import React from 'react';
 import portfolio from './portfolio.json';
 import icon from './icon.png';
 import './App.css';
-import type { About, Certification, Certifications, JobHistories, JobHistory, Link, Links, Skills, StudyHistories, StudyHistory } from './portfolio';
+import type { About, Certification, Certifications, JobHistories, JobHistory, Link, Links, OtherHistories, OtherHistory, Skills, StudyHistories, StudyHistory } from './portfolio';
 
 function App() {
   const about: About = portfolio.about
@@ -10,6 +10,7 @@ function App() {
   const certifications: Certifications = portfolio.certifications
   const studyHistories: StudyHistories = portfolio.study_histories
   const jobHistories: JobHistories = portfolio.job_histories
+  const otherHistories: OtherHistories = portfolio.other_histories
   const skills: Skills = portfolio.skills
 
   return (
@@ -22,6 +23,7 @@ function App() {
         <li>📍 Location: {about.location}</li>
         <li>🎂 Birthday: {about.birthday}</li>
         <li>💖 Like: {about.like.join(' / ')}</li>
+        <li>📜 Bio: {about.bio}</li>
       </ul>
       <h1>Links</h1>
       <ul>
@@ -43,20 +45,37 @@ function App() {
       </ul>
       <h1>Study Histories</h1>
       <ul>
-        {studyHistories.map((history: StudyHistory) => {
+        {studyHistories.map((history: StudyHistory): React.ReactElement => {
           return (
-            <li>{history.name} {history.dept}({history.begin}~{history.end})</li>
+            <li>
+              <a href={history.url} target="_blank" rel="noreferrer">{history.name} {history.dept}</a>
+              ({history.begin}~{history.end})
+            </li>
           )
         })}
       </ul>
       <h1>Job Histories</h1>
       <ul>
-        {jobHistories.map((history: JobHistory) => {
+        {jobHistories.map((history: JobHistory): React.ReactElement => {
           return (
-            <li>{history.name}({history.begin}~{history.end})</li>
+            <li>
+              <a href={history.url} target="_blank" rel="noreferrer">{history.name}</a>
+              ({history.begin}~{history.end})
+            </li>
           )
         })}
       </ul>
+      <h1>Other Histories</h1>
+      <ul>
+        {otherHistories.map((history: OtherHistory): React.ReactElement => {
+          return (
+            <li>
+              {history.url && <a href={history.url} target="_blank" rel="noreferrer">{history.name}</a>}
+              {!history.url && history.name}
+              ({history.begin})
+            </li>
+          )
+        })}      </ul>
       <h1>Skills</h1>
       <ul>
         <li>{skills.join(' / ')}</li>
