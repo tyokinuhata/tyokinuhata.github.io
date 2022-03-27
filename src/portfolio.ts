@@ -38,25 +38,22 @@ export interface About {
   };
 }
 
+interface Base<T> {
+  title: string;
+  values: Array<T>;
+}
+
 export interface Link {
   name: string;
   url: string;
 }
-
-export interface Links {
-  title: string;
-  values: Array<Link>
-}
+export type Links = Base<Link>
 
 export interface Certification {
   name: string;
   year: number;
 }
-
-export interface Certifications {
-  title: string;
-  values: Array<Certification>
-}
+export type Certifications = Base<Certification>
 
 interface History {
   name: string;
@@ -68,27 +65,12 @@ interface History {
 export interface StudyHistory extends History {
   dept: string;
 }
-
-export interface StudyHistories {
-  title: string;
-  values: Array<StudyHistory>;
-}
+export type StudyHistories = Base<StudyHistory>
 
 export type JobHistory = History
-
-export interface JobHistories {
-  title: string;
-  values: Array<JobHistory>;
-}
+export type JobHistories = Base<JobHistory>
 
 export type OtherHistory = History
+export type OtherHistories = Base<OtherHistory>
 
-export interface OtherHistories {
-  title: string;
-  values: Array<OtherHistory>;
-}
-
-export interface Skills {
-  title: string;
-  values: Array<string>;
-}
+export type Skills = Base<string>
