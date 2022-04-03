@@ -24,7 +24,7 @@ function App() {
         <li>{about.location.icon} {about.location.key}: {about.location.value}</li>
         <li>
           <span>{about.birthday.icon} {about.birthday.key}: {about.birthday.value}</span>
-          <span>(Age: {getAge(about.birthday.value)})</span>
+          <span> (Age: {getAge(about.birthday.value)})</span>
         </li>
         <li>{about.like.icon} {about.like.key}: {about.like.value.join(' / ')}</li>
         <li>{about.bio.icon} {about.bio.key}: {about.bio.value}</li>
@@ -33,7 +33,7 @@ function App() {
       <ul>
         {links.values.map((link: Link) => {
           return (
-            <li>
+            <li key={link.name}>
               <a href={link.url} target="_blank" rel="noreferrer">{link.name}</a>
             </li>
           )
@@ -41,9 +41,9 @@ function App() {
       </ul>
       <h1>{certifications.title}</h1>
       <ul>
-        {certifications.values.map((certification: Certification) => {
+        {certifications.values.map((certification: Certification): React.ReactElement => {
           return (
-            <li>{certification.name}({certification.year})</li>
+            <li key={certification.name}>{certification.name}({certification.year})</li>
           )
         })}
       </ul>
@@ -51,7 +51,7 @@ function App() {
       <ul>
         {studyHistories.values.map((history: StudyHistory): React.ReactElement => {
           return (
-            <li>
+            <li key={history.name}>
               <a href={history.url} target="_blank" rel="noreferrer">{history.name} {history.dept}</a>
               ({history.begin}~{history.end})
             </li>
@@ -62,7 +62,7 @@ function App() {
       <ul>
         {jobHistories.values.map((history: JobHistory): React.ReactElement => {
           return (
-            <li>
+            <li key={history.name}>
               <a href={history.url} target="_blank" rel="noreferrer">{history.name}</a>
               ({history.begin}~{history.end})
             </li>
@@ -73,7 +73,7 @@ function App() {
       <ul>
         {otherHistories.values.map((history: OtherHistory): React.ReactElement => {
           return (
-            <li>
+            <li key={history.name}>
               {history.url && <a href={history.url} target="_blank" rel="noreferrer">{history.name}</a>}
               {!history.url && history.name}
               ({history.begin})
