@@ -2,6 +2,7 @@ import React from 'react';
 import portfolio from './portfolio.json';
 import icon from './icon.png';
 import './App.css';
+import { getAge } from './utility';
 import type { About, Certification, Certifications, JobHistories, JobHistory, Link, Links, OtherHistories, OtherHistory, Skills, StudyHistories, StudyHistory } from './portfolio';
 
 function App() {
@@ -21,7 +22,10 @@ function App() {
         <li>{about.name.icon} {about.name.key}: {about.name.value.hn}({about.name.value.rn.first} {about.name.value.rn.last})</li>
         <li>{about.email.icon} {about.email.key}: <a href={`mailto:${about.email.value}`}>{about.email.value}</a></li>
         <li>{about.location.icon} {about.location.key}: {about.location.value}</li>
-        <li>{about.birthday.icon} {about.birthday.key}: {about.birthday.value}</li>
+        <li>
+          <span>{about.birthday.icon} {about.birthday.key}: {about.birthday.value}</span>
+          <span>(Age: {getAge(about.birthday.value)})</span>
+        </li>
         <li>{about.like.icon} {about.like.key}: {about.like.value.join(' / ')}</li>
         <li>{about.bio.icon} {about.bio.key}: {about.bio.value}</li>
       </ul>
@@ -30,7 +34,7 @@ function App() {
         {links.values.map((link: Link) => {
           return (
             <li>
-              <a href={link.url} target="_blank" rel='noreferrer'>{link.name}</a>
+              <a href={link.url} target="_blank" rel="noreferrer">{link.name}</a>
             </li>
           )
         })}
