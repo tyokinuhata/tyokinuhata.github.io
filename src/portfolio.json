@@ -29,7 +29,7 @@
         },
         "like": {
             "key": "Like",
-            "value": ["Music", "Art", "Books", "Cycling", "Tetris"],
+            "value": ["Engineering", "Music", "Art", "Books", "Cycling"],
             "icon": "💖"
         },
         "bio": {
