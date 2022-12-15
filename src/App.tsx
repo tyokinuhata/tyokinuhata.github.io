@@ -65,7 +65,9 @@ function App() {
               <a href={history.url} target="_blank" rel="noreferrer">{history.name}</a>
               ({history.begin}~{history.end})
               <ul>
-                <li>{history.desc}</li>
+                {history.desc?.map((desc: string): React.ReactElement => {
+                  return (<li>{desc}</li>)
+                })}
                 <li>{history.tech?.join(" / ")}</li>
               </ul>
             </li>

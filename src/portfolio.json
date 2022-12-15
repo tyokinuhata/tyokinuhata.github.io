@@ -163,7 +163,7 @@
                 "url": "https://www.inform.co.jp/",
                 "begin": 2017,
                 "end": 2018,
-                "desc": "Webの受託開発",
+                "desc": ["Webの受託開発"],
                 "tech": ["PHP", "Laravel", "jQuery"]
             },
             {
@@ -171,7 +171,7 @@
                 "url": "https://chatbox-inc.com/",
                 "begin": 2017,
                 "end": 2020,
-                "desc": "Webの受託開発",
+                "desc": ["Webの受託開発"],
                 "tech": ["Laravel", "Vue.js", "Nuxt.js", "Pug", "Sass"]
             },
             {
@@ -179,21 +179,21 @@
                 "url": "https://geeks.ne.jp/",
                 "begin": 2018,
                 "end": 2020,
-                "desc": "社内の査定・在庫・人事管理システムの開発・保守",
+                "desc": ["社内の査定・在庫管理・人事管理システムの開発・保守"],
                 "tech": ["Laravel", "Angular", "AngularJS", "CoffeeScript", "TypeScript", "AWS", "CircleCI"]
             },
             {
                 "name": "さくらインターネット株式会社",
                 "url": "https://www.sakura.ad.jp/",
                 "begin": 2020,
-                "desc": "PaaS型クラウドサービスのHacobuneの開発、さくらのVPSのフロントエンド・バックエンドの開発",
+                "desc": ["PaaS型クラウドサービスのHacobuneの開発", "さくらのVPSのフロントエンド・バックエンドの開発"],
                 "tech": ["Go", "Gin", "Kubernetes", "Django", "Vue.js", "TypeScript"]
             },
             {
                 "name": "GMOサイバーセキュリティ byイエラエ株式会社",
                 "url": "https://gmo-cybersecurity.com/",
                 "begin": 2022,
-                "desc": "脆弱性検査のSaaSの開発",
+                "desc": ["脆弱性検査のSaaSの開発"],
                 "tech": ["Terraform", "FastAPI", "React", "TypeScript"]
             }
         ]

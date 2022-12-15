@@ -60,7 +60,7 @@ interface History {
   url?: string;
   begin: number;
   end?: number;
-  desc?: string;
+  desc?: Array<string>;
   tech?: Array<string>;
 }
 
