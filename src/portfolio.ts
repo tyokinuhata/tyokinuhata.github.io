@@ -60,6 +60,8 @@ interface History {
   url?: string;
   begin: number;
   end?: number;
+  desc?: string;
+  tech?: Array<string>;
 }
 
 export interface StudyHistory extends History {

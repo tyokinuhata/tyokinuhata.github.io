@@ -65,6 +65,10 @@ function App() {
             <li key={history.name}>
               <a href={history.url} target="_blank" rel="noreferrer">{history.name}</a>
               ({history.begin}~{history.end})
+              <ul>
+                <li>{history.desc}</li>
+                <li>{history.tech?.join(" / ")}</li>
+              </ul>
             </li>
           )
         })}
