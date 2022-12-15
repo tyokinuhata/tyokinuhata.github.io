@@ -3,7 +3,7 @@ import portfolio from './portfolio.json';
 import icon from './icon.png';
 import './App.css';
 import { getAge } from './utility';
-import type { About, Certification, Certifications, JobHistories, JobHistory, Link, Links, OtherHistories, OtherHistory, Skills, StudyHistories, StudyHistory } from './portfolio';
+import type { About, Certification, Certifications, JobHistories, JobHistory, Link, Links, OtherHistories, OtherHistory, StudyHistories, StudyHistory } from './portfolio';
 
 function App() {
   const about: About = portfolio.about
@@ -12,7 +12,6 @@ function App() {
   const studyHistories: StudyHistories = portfolio.study_histories
   const jobHistories: JobHistories = portfolio.job_histories
   const otherHistories: OtherHistories = portfolio.other_histories
-  const skills: Skills = portfolio.skills
 
   return (
     <div className="Container">
@@ -83,10 +82,7 @@ function App() {
               ({history.begin})
             </li>
           )
-        })}      </ul>
-      <h1>{skills.title}</h1>
-      <ul>
-        <li>{skills.values.join(' / ')}</li>
+        })}
       </ul>
     </div>
   );

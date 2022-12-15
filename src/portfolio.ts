@@ -74,5 +74,3 @@ export type JobHistories = Base<JobHistory>
 
 export type OtherHistory = History
 export type OtherHistories = Base<OtherHistory>
-
-export type Skills = Base<string>

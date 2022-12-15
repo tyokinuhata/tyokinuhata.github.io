@@ -227,9 +227,5 @@
                 "begin": 2022
             }
         ]
-    },
-    "skills": {
-        "title": "Skills",
-        "values": ["PHP", "Laravel", "JavaScript", "CoffeeScript", "TypeScript", "Sass", "Angular", "Vue.js", "React", "Python", "Django", "Flask", "Golang", "Gin", "Docker", "Kubernetes", "IaC", "CI/CD"]
     }
 }
