@@ -15,8 +15,9 @@ function App() {
 
   return (
     <div className="Container">
+      <h1>{portfolio.title}</h1>
       <img src={icon} alt="icon" width="200" />
-      <h1>{about.title}</h1>
+      <h2>{about.title}</h2>
       <ul>
         <li>{about.name.icon} {about.name.key}: {about.name.value.hn}({about.name.value.rn.first} {about.name.value.rn.last})</li>
         <li>{about.email.icon} {about.email.key}: <a href={`mailto:${about.email.value}`}>{about.email.value}</a></li>
@@ -28,7 +29,7 @@ function App() {
         <li>{about.like.icon} {about.like.key}: {about.like.value.join(' / ')}</li>
         <li>{about.bio.icon} {about.bio.key}: {about.bio.value}</li>
       </ul>
-      <h1>{links.title}</h1>
+      <h2>{links.title}</h2>
       <ul>
         {links.values.map((link: Link) => {
           return (
@@ -38,7 +39,7 @@ function App() {
           )
         })}
       </ul>
-      <h1>{certifications.title}</h1>
+      <h2>{certifications.title}</h2>
       <ul>
         {certifications.values.map((certification: Certification): React.ReactElement => {
           return (
@@ -46,7 +47,7 @@ function App() {
           )
         })}
       </ul>
-      <h1>{studyHistories.title}</h1>
+      <h2>{studyHistories.title}</h2>
       <ul>
         {studyHistories.values.map((history: StudyHistory): React.ReactElement => {
           return (
@@ -57,7 +58,7 @@ function App() {
           )
         })}
       </ul>
-      <h1>{jobHistories.title}</h1>
+      <h2>{jobHistories.title}</h2>
       <ul>
         {jobHistories.values.map((history: JobHistory): React.ReactElement => {
           return (
@@ -74,7 +75,7 @@ function App() {
           )
         })}
       </ul>
-      <h1>{otherHistories.title}</h1>
+      <h2>{otherHistories.title}</h2>
       <ul>
         {otherHistories.values.map((history: OtherHistory): React.ReactElement => {
           return (
