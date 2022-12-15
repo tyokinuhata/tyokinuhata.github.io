@@ -3,14 +3,14 @@ import portfolio from './portfolio.json';
 import icon from './icon.png';
 import './App.css';
 import { getAge } from './utility';
-import type { About, Certification, Certifications, JobHistories, JobHistory, Link, Links, OtherHistories, OtherHistory, StudyHistories, StudyHistory } from './portfolio';
+import type { About, Certification, Certifications, Experiences, Experience, Link, Links, OtherHistories, OtherHistory, Educations, Education } from './portfolio';
 
 function App() {
   const about: About = portfolio.about
   const links: Links = portfolio.links
   const certifications: Certifications = portfolio.certifications
-  const studyHistories: StudyHistories = portfolio.study_histories
-  const jobHistories: JobHistories = portfolio.job_histories
+  const educations: Educations = portfolio.educations
+  const experiences: Experiences = portfolio.experiences
   const otherHistories: OtherHistories = portfolio.other_histories
 
   return (
@@ -39,39 +39,39 @@ function App() {
           )
         })}
       </ul>
+      <h2>{experiences.title}</h2>
+      <ul>
+        {experiences.values.map((experience: Experience): React.ReactElement => {
+          return (
+            <li key={experience.name}>
+              <a href={experience.url} target="_blank" rel="noreferrer">{experience.name}</a>
+              ({experience.begin}~{experience.end})
+              <ul>
+                {experience.desc.map((desc: string): React.ReactElement => {
+                  return (<li key={desc}>{desc}</li>)
+                })}
+                <li>{experience.tech.join(" / ")}</li>
+              </ul>
+            </li>
+          )
+        })}
+      </ul>
+      <h2>{educations.title}</h2>
+      <ul>
+        {educations.values.map((education: Education): React.ReactElement => {
+          return (
+            <li key={education.name}>
+              <a href={education.url} target="_blank" rel="noreferrer">{education.name} {education.dept}</a>
+              ({education.begin}~{education.end})
+            </li>
+          )
+        })}
+      </ul>
       <h2>{certifications.title}</h2>
       <ul>
         {certifications.values.map((certification: Certification): React.ReactElement => {
           return (
             <li key={certification.name}>{certification.name}({certification.year})</li>
-          )
-        })}
-      </ul>
-      <h2>{studyHistories.title}</h2>
-      <ul>
-        {studyHistories.values.map((history: StudyHistory): React.ReactElement => {
-          return (
-            <li key={history.name}>
-              <a href={history.url} target="_blank" rel="noreferrer">{history.name} {history.dept}</a>
-              ({history.begin}~{history.end})
-            </li>
-          )
-        })}
-      </ul>
-      <h2>{jobHistories.title}</h2>
-      <ul>
-        {jobHistories.values.map((history: JobHistory): React.ReactElement => {
-          return (
-            <li key={history.name}>
-              <a href={history.url} target="_blank" rel="noreferrer">{history.name}</a>
-              ({history.begin}~{history.end})
-              <ul>
-                {history.desc?.map((desc: string): React.ReactElement => {
-                  return (<li>{desc}</li>)
-                })}
-                <li>{history.tech?.join(" / ")}</li>
-              </ul>
-            </li>
           )
         })}
       </ul>

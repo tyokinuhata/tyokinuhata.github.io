@@ -49,28 +49,29 @@ export interface Link {
 }
 export type Links = Base<Link>
 
-export interface Certification {
-  name: string;
-  year: number;
-}
-export type Certifications = Base<Certification>
-
 interface History {
   name: string;
   url?: string;
   begin: number;
   end?: number;
-  desc?: Array<string>;
-  tech?: Array<string>;
 }
 
-export interface StudyHistory extends History {
+export interface Experience extends History {
+  desc: Array<string>;
+  tech: Array<string>;
+}
+export type Experiences = Base<Experience>
+
+export interface Education extends History {
   dept: string;
 }
-export type StudyHistories = Base<StudyHistory>
+export type Educations = Base<Education>
 
-export type JobHistory = History
-export type JobHistories = Base<JobHistory>
+export interface Certification {
+  name: string;
+  year: number;
+}
+export type Certifications = Base<Certification>
 
 export type OtherHistory = History
 export type OtherHistories = Base<OtherHistory>
