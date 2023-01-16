@@ -104,7 +104,7 @@
                 "url": "https://geeks.ne.jp/",
                 "begin": 2018,
                 "end": 2020,
-                "desc": ["社内の査定・在庫管理・人事管理システムの開発・保守"],
+                "desc": ["パートタイムとして社内の査定・在庫管理・人事管理システムの開発・保守に従事"],
                 "tech": ["Laravel", "Angular", "AngularJS", "CoffeeScript", "TypeScript", "AWS", "CircleCI"]
             },
             {
