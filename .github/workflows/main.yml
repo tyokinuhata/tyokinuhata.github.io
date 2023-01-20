@@ -18,6 +18,13 @@ jobs:
         with:
           node-version: 18.13.0
 
+      - name: Cache npm directory
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: ${{ runner.os }}-npm-
+
       - name: Install node modules
         run: npm ci
 
