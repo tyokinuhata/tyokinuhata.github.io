@@ -13,6 +13,8 @@ function App() {
   const experiences: Experiences = portfolio.experiences
   const otherHistories: OtherHistories = portfolio.other_histories
 
+  oishu()
+
   return (
     <div className="Container">
       <h1>{portfolio.title}</h1>
@@ -89,6 +91,10 @@ function App() {
       </ul>
     </div>
   );
+}
+
+function oishu() {
+  console.log("┌（┌ ˘ ³˘）┐ｵｲｼｭ")
 }
 
 export default App;
