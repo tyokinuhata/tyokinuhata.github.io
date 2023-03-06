@@ -67,6 +67,12 @@ export interface Education extends History {
 }
 export type Educations = Base<Education>
 
+export interface Internship extends History {
+  desc: Array<string>;
+  tech: Array<string>;
+}
+export type Internships = Base<Internship>
+
 export interface Certification {
   name: string;
   year: number;

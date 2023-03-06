@@ -3,7 +3,21 @@ import portfolio from './portfolio.json';
 import icon from './icon.png';
 import './App.css';
 import { getAge } from './utility';
-import type { About, Certification, Certifications, Experiences, Experience, Link, Links, OtherHistories, OtherHistory, Educations, Education } from './portfolio';
+import type {
+  About,
+  Link,
+  Links,
+  Experience,
+  Experiences,
+  Education,
+  Educations,
+  Certification,
+  Certifications,
+  OtherHistory,
+  OtherHistories,
+  Internship,
+  Internships,
+} from './portfolio';
 
 function App() {
   const about: About = portfolio.about
@@ -11,6 +25,7 @@ function App() {
   const certifications: Certifications = portfolio.certifications
   const educations: Educations = portfolio.educations
   const experiences: Experiences = portfolio.experiences
+  const internships: Internships = portfolio.internships
   const otherHistories: OtherHistories = portfolio.other_histories
 
   oishu()
@@ -65,6 +80,23 @@ function App() {
             <li key={education.name}>
               <a href={education.url} target="_blank" rel="noreferrer">{education.name} {education.dept}</a>
               ({education.begin}~{education.end})
+            </li>
+          )
+        })}
+      </ul>
+      <h2>{internships.title}</h2>
+      <ul>
+        {internships.values.map((internship: Internship): React.ReactElement => {
+          return (
+            <li key={internship.name}>
+              <a href={internship.url} target="_blank" rel="noreferrer">{internship.name}</a>
+              ({internship.begin})
+              <ul>
+                {internship.desc.map((desc: string): React.ReactElement => {
+                  return (<li key={desc}>{desc}</li>)
+                })}
+                <li>{internship.tech.join(" / ")}</li>
+              </ul>
             </li>
           )
         })}

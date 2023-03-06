@@ -143,6 +143,67 @@
             }
         ]
     },
+    "internships": {
+        "title": "INTERNSHIP",
+        "values": [
+            {
+                "name": "富士通エフ・オー・エム株式会社",
+                "url": "https://gmo-cybersecurity.com/",
+                "begin": 2014,
+                "desc": ["HTMLとJavaScriptを用いた基本的なアルゴリズムの学習"],
+                "tech": ["HTML", "JavaScript", "Algorithm"]
+            },
+            {
+                "name": "NECマネジメントパートナー株式会社",
+                "url": "https://gmo-cybersecurity.com/",
+                "begin": 2015,
+                "desc": ["LAMP環境を用いたショッピングサイトの制作"],
+                "tech": ["Linux", "Apache", "MySQL", "PHP"]
+            },
+            {
+                "name": "株式会社神戸デジタル・ラボ",
+                "url": "https://gmo-cybersecurity.com/",
+                "begin": 2016,
+                "desc": ["ネットショッピングサイトの改善提案とデモサイトの実装"],
+                "tech": ["HTML", "CSS", "Bootstrap"]
+            },
+            {
+                "name": "KLab株式会社",
+                "url": "https://gmo-cybersecurity.com/",
+                "begin": 2019,
+                "desc": ["TCP/IPプロトコルスタックの自作"],
+                "tech": ["C", "TCP/IP", "Network"]
+            },
+            {
+                "name": "株式会社ファンコミュニケーションズ",
+                "url": "https://gmo-cybersecurity.com/",
+                "begin": 2019,
+                "desc": ["アドネットワークのnendのインフラ環境の理解"],
+                "tech": ["Linux", "LVS", "keepalived", "PHP"]
+            },
+            {
+                "name": "株式会社サイバーエージェント",
+                "url": "https://gmo-cybersecurity.com/",
+                "begin": 2019,
+                "desc": ["AbemaTVのフロントエンドの改善提案を行うインターンに参加"],
+                "tech": ["Linux", "LVS", "keepalived", "PHP"]
+            },
+            {
+                "name": "株式会社サイバーエージェント",
+                "url": "https://gmo-cybersecurity.com/",
+                "begin": 2019,
+                "desc": ["Intel NUCで始めるおうちKubernetesクラスタで自宅サーバ入門に参加"],
+                "tech": ["Linux", "LVS", "keepalived", "PHP"]
+            },
+            {
+                "name": "株式会社ゆめみ",
+                "url": "https://gmo-cybersecurity.com/",
+                "begin": 2020,
+                "desc": ["GCPとKubernetesを用いたGitOpsの検証"],
+                "tech": ["GCP", "Kubernetes", "GitOps"]
+            }
+        ]
+    },
     "certifications": {
         "title": "CERTIFICATIONS",
         "values": [
