@@ -51,7 +51,7 @@ function App() {
         {links.values.map((link: Link) => {
           return (
             <li key={link.name}>
-              <a href={link.url} target="_blank" rel="noreferrer">{link.name}</a>
+              <a href={link.url} target="_blank" rel="noreferrer noopener">{link.name}</a>
             </li>
           )
         })}
@@ -61,7 +61,7 @@ function App() {
         {experiences.values.map((experience: Experience): React.ReactElement => {
           return (
             <li key={experience.name}>
-              <a href={experience.url} target="_blank" rel="noreferrer">{experience.name}</a>
+              <a href={experience.url} target="_blank" rel="noreferrer noopener">{experience.name}</a>
               ({experience.begin}~{experience.end})
               <ul>
                 {experience.desc.map((desc: string): React.ReactElement => {
@@ -78,7 +78,7 @@ function App() {
         {educations.values.map((education: Education): React.ReactElement => {
           return (
             <li key={education.name}>
-              <a href={education.url} target="_blank" rel="noreferrer">{education.name} {education.dept}</a>
+              <a href={education.url} target="_blank" rel="noreferrer noopener">{education.name} {education.dept}</a>
               ({education.begin}~{education.end})
             </li>
           )
@@ -89,7 +89,7 @@ function App() {
         {internships.values.map((internship: Internship): React.ReactElement => {
           return (
             <li key={internship.name}>
-              <a href={internship.url} target="_blank" rel="noreferrer">{internship.name}</a>
+              <a href={internship.url} target="_blank" rel="noreferrer noopener">{internship.name}</a>
               ({internship.begin})
               <ul>
                 {internship.desc.map((desc: string): React.ReactElement => {
@@ -114,7 +114,7 @@ function App() {
         {otherHistories.values.map((history: OtherHistory): React.ReactElement => {
           return (
             <li key={history.name}>
-              {history.url && <a href={history.url} target="_blank" rel="noreferrer">{history.name}</a>}
+              {history.url && <a href={history.url} target="_blank" rel="noreferrer noopener">{history.name}</a>}
               {!history.url && history.name}
               ({history.begin})
             </li>
