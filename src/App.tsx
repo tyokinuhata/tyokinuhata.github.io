@@ -67,7 +67,6 @@ function App() {
                 {experience.desc.map((desc: string): React.ReactElement => {
                   return (<li key={desc}>{desc}</li>)
                 })}
-                <li>{experience.tech.join(" / ")}</li>
               </ul>
             </li>
           )
@@ -95,7 +94,6 @@ function App() {
                 {internship.desc.map((desc: string): React.ReactElement => {
                   return (<li key={desc}>{desc}</li>)
                 })}
-                <li>{internship.tech.join(" / ")}</li>
               </ul>
             </li>
           )
