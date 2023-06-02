@@ -87,7 +87,7 @@ function App() {
       <ul>
         {internships.values.map((internship: Internship): React.ReactElement => {
           return (
-            <li key={internship.name}>
+            <li key={`${internship.name}-${internship.desc}`}>
               <a href={internship.url} target="_blank" rel="noreferrer noopener">{internship.name}</a>
               ({internship.begin})
               <ul>
