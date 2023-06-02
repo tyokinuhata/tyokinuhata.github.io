@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 import portfolio from './portfolio.json';
 import icon from './icon.png';
 import './App.css';
@@ -19,7 +19,7 @@ import type {
   Internships,
 } from './portfolio';
 
-function App() {
+export const App = (): ReactElement => {
   const about: About = portfolio.about
   const links: Links = portfolio.links
   const certifications: Certifications = portfolio.certifications
@@ -123,8 +123,6 @@ function App() {
   );
 }
 
-function oishu() {
+const oishu = (): void => {
   console.log("┌（┌ ˘ ³˘）┐ｵｲｼｭ")
 }
-
-export default App;
