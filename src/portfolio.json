@@ -116,6 +116,13 @@
                 "tech": ["Terraform", "FastAPI", "React", "TypeScript"]
             },
             {
+                "name": "任意団体ぅゅ...ぷんぽぷんぽテクノロジーズ",
+                "url": "https://github.com/uyupun/",
+                "begin": 2018,
+                "desc": ["ハッカソンの出場", "コンテストの出場"],
+                "tech": []
+            },
+            {
                 "name": "さくらインターネット株式会社",
                 "url": "https://www.sakura.ad.jp/",
                 "begin": 2020,
