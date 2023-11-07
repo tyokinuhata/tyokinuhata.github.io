@@ -43,7 +43,7 @@
         "title": "LINKS",
         "values": [
             {
-                "name": "Twitter",
+                "name": "X (formerly Twitter)",
                 "url": "https://twitter.com/h_tyokinuhata"
             },
             {
@@ -51,12 +51,16 @@
                 "url": "https://github.com/tyokinuhata"
             },
             {
-                "name": "note",
-                "url": "https://note.com/tyokinuhata"
+                "name": "YouTube",
+                "url": "https://www.youtube.com/@user-re6hv7gr1x"
             },
             {
                 "name": "Qiita",
                 "url": "https://qiita.com/h_tyokinuhata"
+            },
+            {
+                "name": "note",
+                "url": "https://note.com/tyokinuhata"
             },
             {
                 "name": "Blog",
@@ -65,10 +69,6 @@
             {
                 "name": "Pixiv",
                 "url": "https://www.pixiv.net/users/4783175"
-            },
-            {
-                "name": "Instagram",
-                "url": "https://www.instagram.com/tyokinuhata/"
             },
             {
                 "name": "Studyplus",
