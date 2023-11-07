@@ -62,7 +62,7 @@ export const App = (): ReactElement => {
           return (
             <li key={experience.name}>
               <a href={experience.url} target="_blank" rel="noreferrer noopener">{experience.name}</a>
-              ({experience.begin}~{experience.end})
+              ({experience.begin}~{experience.end ?? "現在"})
               <ul>
                 {experience.desc.map((desc: string): React.ReactElement => {
                   return (<li key={desc}>{desc}</li>)
