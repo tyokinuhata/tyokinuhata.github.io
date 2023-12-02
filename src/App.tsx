@@ -1,6 +1,9 @@
 import React, { ReactElement } from 'react';
 import portfolio from './portfolio.json';
-import icon from './icon.png';
+import icon from './images/icon.png';
+import icon2 from './images/icon2.jpg';
+import icon3 from './images/icon3.jpg';
+import icon4 from './images/icon4.jpg';
 import './App.css';
 import { getAge } from './utility';
 import type {
@@ -34,6 +37,9 @@ export const App = (): ReactElement => {
     <div className="Container">
       <h1>{portfolio.title}</h1>
       <img src={icon} alt="icon" width="200" />
+      <img src={icon2} alt="icon" width="200" />
+      <img src={icon3} alt="icon" width="200" />
+      <img src={icon4} alt="icon" width="200" />
       <h2>{about.title}</h2>
       <ul>
         <li>{about.name.icon} {about.name.key}: {about.name.value.hn}({about.name.value.rn.first} {about.name.value.rn.last})</li>
