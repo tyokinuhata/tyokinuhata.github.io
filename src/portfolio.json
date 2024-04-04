@@ -141,6 +141,12 @@
                 "url": "https://www.oic.ac.jp/course/it/security.html",
                 "begin": 2017,
                 "end": 2021
+            },
+            {
+                "name": "放送大学",
+                "dept": "教養学部教養学科情報コース",
+                "url": "https://www.ouj.ac.jp/gakubu/info/",
+                "begin": 2024
             }
         ]
     },
