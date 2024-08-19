@@ -31,10 +31,11 @@ export interface About {
     value: Array<string>;
     icon: string;
   }
-  bio: {
+  motto: {
     key: string;
     value: string;
     icon: string;
+    link: string;
   };
 }
 

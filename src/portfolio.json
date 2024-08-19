@@ -33,10 +33,11 @@
             "value": ["Engineering", "Music", "Art", "Books", "Cycling"],
             "icon": "💖"
         },
-        "bio": {
-            "key": "Bio",
-            "value": "元気しとぉや！",
-            "icon": "📜"
+        "motto": {
+            "key": "Motto",
+            "value": "バカサバイバー",
+            "icon": "🚀",
+            "link": "https://www.youtube.com/watch?v=n9QTaxnm-P0"
         }
     },
     "links": {

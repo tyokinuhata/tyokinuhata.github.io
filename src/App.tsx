@@ -50,7 +50,7 @@ export const App = (): ReactElement => {
           <span> (Age: {getAge(about.birthday.value)})</span>
         </li>
         <li>{about.like.icon} {about.like.key}: {about.like.value.join(' / ')}</li>
-        <li>{about.bio.icon} {about.bio.key}: {about.bio.value}</li>
+        <li>{about.motto.icon} {about.motto.key}: <a href={about.motto.link} target="_blank" rel="noreferrer noopener">{about.motto.value}</a></li>
       </ul>
       <h2>{links.title}</h2>
       <ul>
