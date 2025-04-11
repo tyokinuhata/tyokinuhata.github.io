@@ -1,25 +1,25 @@
-import { FC } from 'react';
-import portfolioData from '../data/portfolio.json';
-import type { Portfolio } from '../types/portfolio';
-import { calculateAge } from '../utils/date';
+import type { FC } from "react";
+import portfolioData from "../data/portfolio.json";
+import type { Portfolio } from "../types/portfolio";
+import { calculateAge } from "../utils/date";
 
 // Import images with vite-imagetools transformations
-import iconOriginal from '../assets/icon.png';
-import iconWebp from '../assets/icon.png?format=webp';
-import iconAvif from '../assets/icon.png?format=avif';
+import iconOriginal from "../assets/icon.png";
+import iconWebp from "../assets/icon.png?format=webp";
+import iconAvif from "../assets/icon.png?format=avif";
 
-import icon2Original from '../assets/icon2.jpg';
-import icon2Webp from '../assets/icon2.jpg?format=webp';
-import icon2Avif from '../assets/icon2.jpg?format=avif';
+import icon2Original from "../assets/icon2.jpg";
+import icon2Webp from "../assets/icon2.jpg?format=webp";
+import icon2Avif from "../assets/icon2.jpg?format=avif";
 
-import icon3Original from '../assets/icon3.jpg';
-import icon3Webp from '../assets/icon3.jpg?format=webp';
-import icon3Avif from '../assets/icon3.jpg?format=avif';
+import icon3Original from "../assets/icon3.jpg";
+import icon3Webp from "../assets/icon3.jpg?format=webp";
+import icon3Avif from "../assets/icon3.jpg?format=avif";
 
-import icon4Original from '../assets/icon4.jpg';
-import icon4Webp from '../assets/icon4.jpg?format=webp';
-import icon4Avif from '../assets/icon4.jpg?format=avif';
-import './Top.css';
+import icon4Original from "../assets/icon4.jpg";
+import icon4Webp from "../assets/icon4.jpg?format=webp";
+import icon4Avif from "../assets/icon4.jpg?format=avif";
+import "./Top.css";
 
 const portfolio = portfolioData as Portfolio;
 
@@ -64,22 +64,30 @@ const Top: FC = () => {
         <h2>{portfolio.about.title}</h2>
         <ul>
           <li>
-            {portfolio.about.name.icon} {portfolio.about.name.key}: {portfolio.about.name.value.hn} ({portfolio.about.name.value.rn.first} {portfolio.about.name.value.rn.last})
+            {portfolio.about.name.icon} {portfolio.about.name.key}: {portfolio.about.name.value.hn}{" "}
+            ({portfolio.about.name.value.rn.first} {portfolio.about.name.value.rn.last})
           </li>
           <li>
-            {portfolio.about.email.icon} {portfolio.about.email.key}: <a href={`mailto:${portfolio.about.email.value}`}>{portfolio.about.email.value}</a>
+            {portfolio.about.email.icon} {portfolio.about.email.key}:{" "}
+            <a href={`mailto:${portfolio.about.email.value}`}>{portfolio.about.email.value}</a>
           </li>
           <li>
-            {portfolio.about.location.icon} {portfolio.about.location.key}: {portfolio.about.location.value}
+            {portfolio.about.location.icon} {portfolio.about.location.key}:{" "}
+            {portfolio.about.location.value}
           </li>
           <li>
-            {portfolio.about.birthday.icon} {portfolio.about.birthday.key}: {portfolio.about.birthday.value} (Age: {calculateAge(portfolio.about.birthday.value)})
+            {portfolio.about.birthday.icon} {portfolio.about.birthday.key}:{" "}
+            {portfolio.about.birthday.value} (Age: {calculateAge(portfolio.about.birthday.value)})
           </li>
           <li>
-            {portfolio.about.like.icon} {portfolio.about.like.key}: {portfolio.about.like.value.join(', ')}
+            {portfolio.about.like.icon} {portfolio.about.like.key}:{" "}
+            {portfolio.about.like.value.join(", ")}
           </li>
           <li>
-            {portfolio.about.motto.icon} {portfolio.about.motto.key}: <a href={portfolio.about.motto.link} target="_blank" rel="noopener noreferrer">{portfolio.about.motto.value}</a>
+            {portfolio.about.motto.icon} {portfolio.about.motto.key}:{" "}
+            <a href={portfolio.about.motto.link} target="_blank" rel="noopener noreferrer">
+              {portfolio.about.motto.value}
+            </a>
           </li>
         </ul>
       </section>
@@ -88,8 +96,8 @@ const Top: FC = () => {
       <section>
         <h2>{portfolio.links.title}</h2>
         <ul>
-          {portfolio.links.values.map((link, index) => (
-            <li key={index}>
+          {portfolio.links.values.map(link => (
+            <li key={link.name}>
               <a href={link.url} target="_blank" rel="noopener noreferrer">
                 {link.name}
               </a>
@@ -102,15 +110,15 @@ const Top: FC = () => {
       <section>
         <h2>{portfolio.experiences.title}</h2>
         <ul>
-          {portfolio.experiences.values.map((experience, index) => (
-            <li key={index}>
+          {portfolio.experiences.values.map(experience => (
+            <li key={experience.name}>
               <a href={experience.url} target="_blank" rel="noopener noreferrer">
                 {experience.name}
               </a>
-              ({experience.begin} - {experience.end || 'Present'})
+              ({experience.begin} - {experience.end || "Present"})
               <ul>
-                {experience.desc.map((description, descIndex) => (
-                  <li key={descIndex}>{description}</li>
+                {experience.desc.map(description => (
+                  <li key={description}>{description}</li>
                 ))}
               </ul>
             </li>
@@ -122,12 +130,12 @@ const Top: FC = () => {
       <section>
         <h2>{portfolio.educations.title}</h2>
         <ul>
-          {portfolio.educations.values.map((education, index) => (
-            <li key={index}>
+          {portfolio.educations.values.map(education => (
+            <li key={education.name}>
               <a href={education.url} target="_blank" rel="noopener noreferrer">
                 {education.name}
               </a>
-              ({education.begin} - {education.end || 'Present'})
+              ({education.begin} - {education.end || "Present"})
               <ul>
                 <li>{education.dept}</li>
               </ul>
@@ -140,17 +148,17 @@ const Top: FC = () => {
       <section>
         <h2>{portfolio.internships.title}</h2>
         <ul>
-          {portfolio.internships.values.map((internship, index) => (
-            <li key={index}>
+          {portfolio.internships.values.map(internship => (
+            <li key={internship.name}>
               <a href={internship.url} target="_blank" rel="noopener noreferrer">
                 {internship.name}
               </a>
               ({internship.begin})
               <ul>
-                {internship.desc.map((description, descIndex) => (
-                  <li key={descIndex}>{description}</li>
+                {internship.desc.map(description => (
+                  <li key={description}>{description}</li>
                 ))}
-                <li>Technologies: {internship.tech.join(', ')}</li>
+                <li>Technologies: {internship.tech.join(", ")}</li>
               </ul>
             </li>
           ))}
@@ -161,8 +169,8 @@ const Top: FC = () => {
       <section>
         <h2>{portfolio.certifications.title}</h2>
         <ul>
-          {portfolio.certifications.values.map((certification, index) => (
-            <li key={index}>
+          {portfolio.certifications.values.map(certification => (
+            <li key={certification.name}>
               {certification.name} ({certification.year})
             </li>
           ))}
@@ -173,8 +181,8 @@ const Top: FC = () => {
       <section>
         <h2>{portfolio.other_histories.title}</h2>
         <ul>
-          {portfolio.other_histories.values.map((history, index) => (
-            <li key={index}>
+          {portfolio.other_histories.values.map(history => (
+            <li key={history.name}>
               {history.url ? (
                 <a href={history.url} target="_blank" rel="noopener noreferrer">
                   {history.name}

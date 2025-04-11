@@ -19,9 +19,12 @@
   "javascript": {
     "formatter": {
       "quoteStyle": "double",
-      "trailingComma": "all",
+      "trailingCommas": "all",
       "semicolons": "always",
       "arrowParentheses": "asNeeded"
     }
+  },
+  "files": {
+    "ignore": ["tsconfig.app.json", "tsconfig.node.json"]
   }
 }

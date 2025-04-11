@@ -1,323 +1,329 @@
 {
-    "title": "This Is Kazukichi",
-    "about": {
-        "title": "ABOUT",
-        "name": {
-            "key": "Name",
-            "value": {
-                "rn": {
-                    "first": "Kazuki",
-                    "last": "TOBITA"
-                },
-                "hn": "Kazukichi"
-            },
-            "icon": "🤓"
+  "title": "This Is Kazukichi",
+  "about": {
+    "title": "ABOUT",
+    "name": {
+      "key": "Name",
+      "value": {
+        "rn": {
+          "first": "Kazuki",
+          "last": "TOBITA"
         },
-        "email": {
-            "key": "Email",
-            "value": "kazukiti201@gmail.com",
-            "icon": "✉️"
-        },
-        "location": {
-            "key": "Location",
-            "value": "Hyogo",
-            "icon": "📍"
-        },
-        "birthday": {
-            "key": "Birthday",
-            "value": "1998/06/30",
-            "icon": "🎂"
-        },
-        "like": {
-            "key": "Like",
-            "value": ["Engineering", "Music", "Art", "Books", "Cycling"],
-            "icon": "💖"
-        },
-        "motto": {
-            "key": "Motto",
-            "value": "バカサバイバー",
-            "icon": "🚀",
-            "link": "https://www.youtube.com/watch?v=n9QTaxnm-P0"
-        }
+        "hn": "Kazukichi"
+      },
+      "icon": "🤓"
     },
-    "links": {
-        "title": "LINKS",
-        "values": [
-            {
-                "name": "X (formerly Twitter)",
-                "url": "https://twitter.com/h_tyokinuhata"
-            },
-            {
-                "name": "GitHub",
-                "url": "https://github.com/tyokinuhata"
-            },
-            {
-                "name": "YouTube",
-                "url": "https://www.youtube.com/@user-re6hv7gr1x"
-            },
-            {
-                "name": "Qiita",
-                "url": "https://qiita.com/h_tyokinuhata"
-            },
-            {
-                "name": "note",
-                "url": "https://note.com/tyokinuhata"
-            },
-            {
-                "name": "Blog",
-                "url": "http://kazukichi.hatenadiary.com/"
-            },
-            {
-                "name": "高田ゼミ",
-                "url": "https://uyupun.github.io/takada-semi/"
-            },
-            {
-                "name": "Pixiv",
-                "url": "https://www.pixiv.net/users/4783175"
-            },
-            {
-                "name": "Studyplus",
-                "url": "https://www.studyplus.jp/users/h_tyokinuhata"
-            },
-            {
-                "name": "Wishlist",
-                "url": "https://www.amazon.jp/hz/wishlist/ls/35F1TMJOKBUB7?ref_=wl_share"
-            }
-        ]
+    "email": {
+      "key": "Email",
+      "value": "kazukiti201@gmail.com",
+      "icon": "✉️"
     },
-    "experiences": {
-        "title": "EXPERIENCE",
-        "values": [
-            {
-                "name": "インフォームシステム株式会社",
-                "url": "https://www.inform.co.jp/",
-                "begin": 2017,
-                "end": 2018,
-                "desc": ["パートタイムとしてWebの受託開発に従事"]
-            },
-            {
-                "name": "株式会社chatbox",
-                "url": "https://chatbox-inc.com/",
-                "begin": 2017,
-                "end": 2020,
-                "desc": ["パートタイムとしてWebの受託開発に従事"]
-            },
-            {
-                "name": "GEEKS株式会社",
-                "url": "https://geeks.ne.jp/",
-                "begin": 2018,
-                "end": 2020,
-                "desc": ["パートタイムとして社内の査定・在庫管理・人事管理システム・引越管理システムの開発・保守に従事"]
-            },
-            {
-                "name": "GMOサイバーセキュリティ byイエラエ株式会社",
-                "url": "https://gmo-cybersecurity.com/",
-                "begin": 2022,
-                "end": 2023,
-                "desc": ["業務委託として脆弱性検査のSaaSの開発に従事"]
-            },
-            {
-                "name": "任意団体ぅゅ...ぷんぽぷんぽテクノロジーズ",
-                "url": "https://github.com/uyupun/",
-                "begin": 2018,
-                "desc": ["ハッカソンの出場、サービスの開発、案件の受託等、幅広く手掛ける"]
-            },
-            {
-                "name": "さくらインターネット株式会社",
-                "url": "https://www.sakura.ad.jp/",
-                "begin": 2020,
-                "desc": ["PaaS型クラウドサービスのHacobuneの開発", "さくらのVPSのフロントエンド・バックエンドの開発・運用・保守", "Tellusのバックエンドの開発"]
-            }
-        ]
+    "location": {
+      "key": "Location",
+      "value": "Hyogo",
+      "icon": "📍"
     },
-    "educations": {
-        "title": "EDUCATION",
-        "values": [
-            {
-                "name": "神戸市立神港高等学校",
-                "dept": "情報処理科",
-                "url": "http://www2.kobe-c.ed.jp/snk-hs/?page_id=42",
-                "begin": 2014,
-                "end": 2017
-            },
-            {
-                "name": "大阪情報コンピュータ専門学校",
-                "dept": "総合情報メディア学科ネットワークセキュリティ専攻",
-                "url": "https://www.oic.ac.jp/course/it/security.html",
-                "begin": 2017,
-                "end": 2021
-            },
-            {
-                "name": "放送大学",
-                "dept": "教養学部教養学科情報コース",
-                "url": "https://www.ouj.ac.jp/gakubu/info/",
-                "begin": 2024
-            }
-        ]
+    "birthday": {
+      "key": "Birthday",
+      "value": "1998/06/30",
+      "icon": "🎂"
     },
-    "internships": {
-        "title": "INTERNSHIP",
-        "values": [
-            {
-                "name": "富士通エフ・オー・エム株式会社",
-                "url": "https://www.fom.fujitsu.com/",
-                "begin": 2014,
-                "desc": ["HTMLとJavaScriptを用いた基本的なアルゴリズムの学習"],
-                "tech": ["HTML", "JavaScript", "Algorithm"]
-            },
-            {
-                "name": "NECマネジメントパートナー株式会社",
-                "url": "https://www.necmp.co.jp/",
-                "begin": 2015,
-                "desc": ["LAMP環境を用いたショッピングサイトの制作"],
-                "tech": ["Linux", "Apache", "MySQL", "PHP"]
-            },
-            {
-                "name": "株式会社神戸デジタル・ラボ",
-                "url": "https://www.kdl.co.jp/",
-                "begin": 2016,
-                "desc": ["ネットショッピングサイトの改善提案とデモサイトの実装"],
-                "tech": ["HTML", "CSS", "Bootstrap"]
-            },
-            {
-                "name": "KLab株式会社",
-                "url": "https://www.klab.com/",
-                "begin": 2019,
-                "desc": ["TCP/IPプロトコルスタックの自作"],
-                "tech": ["C", "TCP/IP", "Network"]
-            },
-            {
-                "name": "株式会社ファンコミュニケーションズ",
-                "url": "https://www.fancs.com/",
-                "begin": 2019,
-                "desc": ["アドネットワークのnendのインフラ環境の操作"],
-                "tech": ["Linux", "LVS", "keepalived", "PHP"]
-            },
-            {
-                "name": "株式会社サイバーエージェント",
-                "url": "https://www.cyberagent.co.jp/",
-                "begin": 2019,
-                "desc": ["AbemaTVのWebフロントエンドの改善提案・実装"],
-                "tech": ["Linux", "LVS", "keepalived", "PHP"]
-            },
-            {
-                "name": "株式会社サイバーエージェント",
-                "url": "https://www.cyberagent.co.jp/",
-                "begin": 2019,
-                "desc": ["Intel NUC上でKubernetesクラスタを構築"],
-                "tech": ["Intel NUC", "Kubernetes"]
-            },
-            {
-                "name": "株式会社ゆめみ",
-                "url": "https://www.yumemi.co.jp/",
-                "begin": 2020,
-                "desc": ["GCPとKubernetesを用いたGitOpsの検証"],
-                "tech": ["GCP", "Kubernetes", "GitOps"]
-            }
-        ]
+    "like": {
+      "key": "Like",
+      "value": ["Engineering", "Music", "Art", "Books", "Cycling"],
+      "icon": "💖"
     },
-    "certifications": {
-        "title": "CERTIFICATIONS",
-        "values": [
-            {
-                "name": "ITパスポート試験",
-                "year": 2016
-            },
-            {
-                "name": "基本情報技術者試験",
-                "year": 2016
-            },
-            {
-                "name": "情報セキュリティマネジメント試験",
-                "year": 2017
-            },
-            {
-                "name": "C言語プログラミング能力認定試験 3級",
-                "year": 2017
-            },
-            {
-                "name": "応用情報技術者試験",
-                "year": 2017
-            },
-            {
-                "name": "C言語プログラミング能力認定試験 2級",
-                "year": 2018
-            },
-            {
-                "name": "工事担任者 DD第三種",
-                "year": 2018
-            },
-            {
-                "name": ".com Master ADVANCE★★",
-                "year": 2018
-            },
-            {
-                "name": "第四級アマチュア無線技士",
-                "year": 2018
-            },
-            {
-                "name": "危険物取扱者 乙種4類",
-                "year": 2018
-            },
-            {
-                "name": "情報処理安全確保支援士",
-                "year": 2019
-            },
-            {
-                "name": "普通自動車第一種運転免許(AT限定)",
-                "year": 2021
-            },
-            {
-                "name": "ネットワークスペシャリスト",
-                "year": 2022
-            },
-            {
-                "name": "色彩検定3級",
-                "year": 2022
-            },
-            {
-                "name": "AWS Certified Cloud Practitioner",
-                "year": 2023
-            },
-            {
-                "name": "AWS Certified Solutions Architect - Associate",
-                "year": 2023
-            }
-        ]
-    },
-    "other_histories": {
-        "title": "OTHER HISTORIES",
-        "values": [
-            {
-                "name": "IT・簿記選手権大会 近畿・中国・四国大会 IT部門 個人の部 第11位",
-                "url": "https://www.itboki.jp/",
-                "begin": 2016
-            },
-            {
-                "name": "SPAJAM2019 関西予選 最優秀賞",
-                "url": "https://history.spajam.jp/2019/entry/kansai/",
-                "begin": 2019
-            },
-            {
-                "name": "ママチャリ 大阪 - 名古屋",
-                "begin": 2019
-            },
-            {
-                "name": "ママチャリ 淡路島一周",
-                "begin": 2020
-            },
-            {
-                "name": "ママチャリ 琵琶湖一周",
-                "begin": 2020
-            },
-            {
-                "name": "ママチャリ 志賀島一周",
-                "begin": 2021
-            },
-            {
-                "name": "富士山 富士宮ルート 登頂",
-                "begin": 2022
-            }
-        ]
+    "motto": {
+      "key": "Motto",
+      "value": "バカサバイバー",
+      "icon": "🚀",
+      "link": "https://www.youtube.com/watch?v=n9QTaxnm-P0"
     }
+  },
+  "links": {
+    "title": "LINKS",
+    "values": [
+      {
+        "name": "X (formerly Twitter)",
+        "url": "https://twitter.com/h_tyokinuhata"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/tyokinuhata"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://www.youtube.com/@user-re6hv7gr1x"
+      },
+      {
+        "name": "Qiita",
+        "url": "https://qiita.com/h_tyokinuhata"
+      },
+      {
+        "name": "note",
+        "url": "https://note.com/tyokinuhata"
+      },
+      {
+        "name": "Blog",
+        "url": "http://kazukichi.hatenadiary.com/"
+      },
+      {
+        "name": "高田ゼミ",
+        "url": "https://uyupun.github.io/takada-semi/"
+      },
+      {
+        "name": "Pixiv",
+        "url": "https://www.pixiv.net/users/4783175"
+      },
+      {
+        "name": "Studyplus",
+        "url": "https://www.studyplus.jp/users/h_tyokinuhata"
+      },
+      {
+        "name": "Wishlist",
+        "url": "https://www.amazon.jp/hz/wishlist/ls/35F1TMJOKBUB7?ref_=wl_share"
+      }
+    ]
+  },
+  "experiences": {
+    "title": "EXPERIENCE",
+    "values": [
+      {
+        "name": "インフォームシステム株式会社",
+        "url": "https://www.inform.co.jp/",
+        "begin": 2017,
+        "end": 2018,
+        "desc": ["パートタイムとしてWebの受託開発に従事"]
+      },
+      {
+        "name": "株式会社chatbox",
+        "url": "https://chatbox-inc.com/",
+        "begin": 2017,
+        "end": 2020,
+        "desc": ["パートタイムとしてWebの受託開発に従事"]
+      },
+      {
+        "name": "GEEKS株式会社",
+        "url": "https://geeks.ne.jp/",
+        "begin": 2018,
+        "end": 2020,
+        "desc": [
+          "パートタイムとして社内の査定・在庫管理・人事管理システム・引越管理システムの開発・保守に従事"
+        ]
+      },
+      {
+        "name": "GMOサイバーセキュリティ byイエラエ株式会社",
+        "url": "https://gmo-cybersecurity.com/",
+        "begin": 2022,
+        "end": 2023,
+        "desc": ["業務委託として脆弱性検査のSaaSの開発に従事"]
+      },
+      {
+        "name": "任意団体ぅゅ...ぷんぽぷんぽテクノロジーズ",
+        "url": "https://github.com/uyupun/",
+        "begin": 2018,
+        "desc": ["ハッカソンの出場、サービスの開発、案件の受託等、幅広く手掛ける"]
+      },
+      {
+        "name": "さくらインターネット株式会社",
+        "url": "https://www.sakura.ad.jp/",
+        "begin": 2020,
+        "desc": [
+          "PaaS型クラウドサービスのHacobuneの開発",
+          "さくらのVPSのフロントエンド・バックエンドの開発・運用・保守",
+          "Tellusのバックエンドの開発"
+        ]
+      }
+    ]
+  },
+  "educations": {
+    "title": "EDUCATION",
+    "values": [
+      {
+        "name": "神戸市立神港高等学校",
+        "dept": "情報処理科",
+        "url": "http://www2.kobe-c.ed.jp/snk-hs/?page_id=42",
+        "begin": 2014,
+        "end": 2017
+      },
+      {
+        "name": "大阪情報コンピュータ専門学校",
+        "dept": "総合情報メディア学科ネットワークセキュリティ専攻",
+        "url": "https://www.oic.ac.jp/course/it/security.html",
+        "begin": 2017,
+        "end": 2021
+      },
+      {
+        "name": "放送大学",
+        "dept": "教養学部教養学科情報コース",
+        "url": "https://www.ouj.ac.jp/gakubu/info/",
+        "begin": 2024
+      }
+    ]
+  },
+  "internships": {
+    "title": "INTERNSHIP",
+    "values": [
+      {
+        "name": "富士通エフ・オー・エム株式会社",
+        "url": "https://www.fom.fujitsu.com/",
+        "begin": 2014,
+        "desc": ["HTMLとJavaScriptを用いた基本的なアルゴリズムの学習"],
+        "tech": ["HTML", "JavaScript", "Algorithm"]
+      },
+      {
+        "name": "NECマネジメントパートナー株式会社",
+        "url": "https://www.necmp.co.jp/",
+        "begin": 2015,
+        "desc": ["LAMP環境を用いたショッピングサイトの制作"],
+        "tech": ["Linux", "Apache", "MySQL", "PHP"]
+      },
+      {
+        "name": "株式会社神戸デジタル・ラボ",
+        "url": "https://www.kdl.co.jp/",
+        "begin": 2016,
+        "desc": ["ネットショッピングサイトの改善提案とデモサイトの実装"],
+        "tech": ["HTML", "CSS", "Bootstrap"]
+      },
+      {
+        "name": "KLab株式会社",
+        "url": "https://www.klab.com/",
+        "begin": 2019,
+        "desc": ["TCP/IPプロトコルスタックの自作"],
+        "tech": ["C", "TCP/IP", "Network"]
+      },
+      {
+        "name": "株式会社ファンコミュニケーションズ",
+        "url": "https://www.fancs.com/",
+        "begin": 2019,
+        "desc": ["アドネットワークのnendのインフラ環境の操作"],
+        "tech": ["Linux", "LVS", "keepalived", "PHP"]
+      },
+      {
+        "name": "株式会社サイバーエージェント",
+        "url": "https://www.cyberagent.co.jp/",
+        "begin": 2019,
+        "desc": ["AbemaTVのWebフロントエンドの改善提案・実装"],
+        "tech": ["Linux", "LVS", "keepalived", "PHP"]
+      },
+      {
+        "name": "株式会社サイバーエージェント",
+        "url": "https://www.cyberagent.co.jp/",
+        "begin": 2019,
+        "desc": ["Intel NUC上でKubernetesクラスタを構築"],
+        "tech": ["Intel NUC", "Kubernetes"]
+      },
+      {
+        "name": "株式会社ゆめみ",
+        "url": "https://www.yumemi.co.jp/",
+        "begin": 2020,
+        "desc": ["GCPとKubernetesを用いたGitOpsの検証"],
+        "tech": ["GCP", "Kubernetes", "GitOps"]
+      }
+    ]
+  },
+  "certifications": {
+    "title": "CERTIFICATIONS",
+    "values": [
+      {
+        "name": "ITパスポート試験",
+        "year": 2016
+      },
+      {
+        "name": "基本情報技術者試験",
+        "year": 2016
+      },
+      {
+        "name": "情報セキュリティマネジメント試験",
+        "year": 2017
+      },
+      {
+        "name": "C言語プログラミング能力認定試験 3級",
+        "year": 2017
+      },
+      {
+        "name": "応用情報技術者試験",
+        "year": 2017
+      },
+      {
+        "name": "C言語プログラミング能力認定試験 2級",
+        "year": 2018
+      },
+      {
+        "name": "工事担任者 DD第三種",
+        "year": 2018
+      },
+      {
+        "name": ".com Master ADVANCE★★",
+        "year": 2018
+      },
+      {
+        "name": "第四級アマチュア無線技士",
+        "year": 2018
+      },
+      {
+        "name": "危険物取扱者 乙種4類",
+        "year": 2018
+      },
+      {
+        "name": "情報処理安全確保支援士",
+        "year": 2019
+      },
+      {
+        "name": "普通自動車第一種運転免許(AT限定)",
+        "year": 2021
+      },
+      {
+        "name": "ネットワークスペシャリスト",
+        "year": 2022
+      },
+      {
+        "name": "色彩検定3級",
+        "year": 2022
+      },
+      {
+        "name": "AWS Certified Cloud Practitioner",
+        "year": 2023
+      },
+      {
+        "name": "AWS Certified Solutions Architect - Associate",
+        "year": 2023
+      }
+    ]
+  },
+  "other_histories": {
+    "title": "OTHER HISTORIES",
+    "values": [
+      {
+        "name": "IT・簿記選手権大会 近畿・中国・四国大会 IT部門 個人の部 第11位",
+        "url": "https://www.itboki.jp/",
+        "begin": 2016
+      },
+      {
+        "name": "SPAJAM2019 関西予選 最優秀賞",
+        "url": "https://history.spajam.jp/2019/entry/kansai/",
+        "begin": 2019
+      },
+      {
+        "name": "ママチャリ 大阪 - 名古屋",
+        "begin": 2019
+      },
+      {
+        "name": "ママチャリ 淡路島一周",
+        "begin": 2020
+      },
+      {
+        "name": "ママチャリ 琵琶湖一周",
+        "begin": 2020
+      },
+      {
+        "name": "ママチャリ 志賀島一周",
+        "begin": 2021
+      },
+      {
+        "name": "富士山 富士宮ルート 登頂",
+        "begin": 2022
+      }
+    ]
+  }
 }
