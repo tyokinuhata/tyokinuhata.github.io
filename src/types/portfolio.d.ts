@@ -30,7 +30,7 @@ export interface About {
     value: string;
   };
   like: AboutItem & {
-    value: string[];
+    value: Array<string>;
   };
   motto: AboutItem & {
     value: string;
@@ -45,7 +45,7 @@ export interface AboutItem {
 
 export interface Links {
   title: string;
-  values: Link[];
+  values: Array<Link>;
 }
 
 export interface Link {
@@ -55,7 +55,7 @@ export interface Link {
 
 export interface Experiences {
   title: string;
-  values: Experience[];
+  values: Array<Experience>;
 }
 
 export interface Experience {
@@ -63,12 +63,12 @@ export interface Experience {
   url: string;
   begin: number;
   end?: number;
-  desc: string[];
+  desc: Array<string>;
 }
 
 export interface Educations {
   title: string;
-  values: Education[];
+  values: Array<Education>;
 }
 
 export interface Education {
@@ -81,20 +81,20 @@ export interface Education {
 
 export interface Internships {
   title: string;
-  values: Internship[];
+  values: Array<Internship>;
 }
 
 export interface Internship {
   name: string;
   url: string;
   begin: number;
-  desc: string[];
-  tech: string[];
+  desc: Array<string>;
+  tech: Array<string>;
 }
 
 export interface Certifications {
   title: string;
-  values: Certification[];
+  values: Array<Certification>;
 }
 
 export interface Certification {
@@ -104,7 +104,7 @@ export interface Certification {
 
 export interface OtherHistories {
   title: string;
-  values: OtherHistory[];
+  values: Array<OtherHistory>;
 }
 
 export interface OtherHistory {
