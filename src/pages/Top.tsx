@@ -67,7 +67,7 @@ const Top: FC = () => {
             {portfolio.about.name.icon} {portfolio.about.name.key}: {portfolio.about.name.value.hn} ({portfolio.about.name.value.rn.first} {portfolio.about.name.value.rn.last})
           </li>
           <li>
-            {portfolio.about.email.icon} {portfolio.about.email.key}: {portfolio.about.email.value}
+            {portfolio.about.email.icon} {portfolio.about.email.key}: <a href={`mailto:${portfolio.about.email.value}`}>{portfolio.about.email.value}</a>
           </li>
           <li>
             {portfolio.about.location.icon} {portfolio.about.location.key}: {portfolio.about.location.value}
