@@ -2,6 +2,10 @@ import { FC } from 'react';
 import portfolioData from '../data/portfolio.json';
 import type { Portfolio } from '../types/portfolio';
 import { calculateAge } from '../utils/date';
+import icon from '../assets/icon.png';
+import icon2 from '../assets/icon2.jpg';
+import icon3 from '../assets/icon3.jpg';
+import icon4 from '../assets/icon4.jpg';
 
 const portfolio = portfolioData as Portfolio;
 
@@ -9,6 +13,14 @@ const Top: FC = () => {
   return (
     <div>
       <h1>{portfolio.title}</h1>
+
+      {/* Icons section */}
+      <div>
+        <img src={icon} alt="Icon" style={{ height: '200px' }} />
+        <img src={icon2} alt="Icon 2" style={{ height: '200px' }} />
+        <img src={icon3} alt="Icon 3" style={{ height: '200px' }} />
+        <img src={icon4} alt="Icon 4" style={{ height: '200px' }} />
+      </div>
 
       {/* About section */}
       <section>
