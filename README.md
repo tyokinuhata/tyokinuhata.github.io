@@ -4,9 +4,11 @@
 
 ┌（┌ ˘ ³˘）┐ｵｲｼｭ
 
-### Get started
+### Getting started
 
 ```bash
-$ npm install
-$ npm start
+$ pnpm install
+$ chmod +x .husky/pre-commit
+$ pnpm prepare
+$ pnpm dev
 ```
