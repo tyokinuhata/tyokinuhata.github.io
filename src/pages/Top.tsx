@@ -25,7 +25,7 @@ const portfolio = portfolioData as Portfolio;
 
 const Top: FC = () => {
   return (
-    <div>
+    <div className="top-container">
       <h1>{portfolio.title}</h1>
 
       {/* Icons section */}
