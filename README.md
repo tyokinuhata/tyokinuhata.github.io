@@ -1,6 +1,6 @@
 # portfolio
 
-[![Deploy](https://github.com/tyokinuhata/tyokinuhata.github.io/actions/workflows/main.yml/badge.svg)](https://github.com/tyokinuhata/tyokinuhata.github.io/actions/workflows/main.yml)
+[![deploy](https://github.com/tyokinuhata/tyokinuhata.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/tyokinuhata/tyokinuhata.github.io/actions/workflows/deploy.yml)
 
 ┌（┌ ˘ ³˘）┐ｵｲｼｭ
 
