@@ -179,9 +179,9 @@ const Top: FC = () => {
 
       {/* Other Histories section */}
       <section>
-        <h2>{portfolio.other_histories.title}</h2>
+        <h2>{portfolio.otherHistories.title}</h2>
         <ul>
-          {portfolio.other_histories.values.map(history => (
+          {portfolio.otherHistories.values.map(history => (
             <li key={history.name}>
               {history.url ? (
                 <a href={history.url} target="_blank" rel="noopener noreferrer">

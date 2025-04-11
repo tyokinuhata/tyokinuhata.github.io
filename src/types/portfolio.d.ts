@@ -11,7 +11,7 @@ export interface Portfolio {
   educations: Section<Education>;
   internships: Section<Internship>;
   certifications: Section<Certification>;
-  other_histories: Section<OtherHistory>;
+  otherHistories: Section<OtherHistory>;
 }
 
 export interface About {
