@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import portfolioData from '../data/portfolio.json';
 import type { Portfolio } from '../types/portfolio';
+import { calculateAge } from '../utils/date';
 
 const portfolio = portfolioData as Portfolio;
 
@@ -23,7 +24,7 @@ const Top: FC = () => {
             {portfolio.about.location.icon} {portfolio.about.location.key}: {portfolio.about.location.value}
           </li>
           <li>
-            {portfolio.about.birthday.icon} {portfolio.about.birthday.key}: {portfolio.about.birthday.value}
+            {portfolio.about.birthday.icon} {portfolio.about.birthday.key}: {portfolio.about.birthday.value} (Age: {calculateAge(portfolio.about.birthday.value)})
           </li>
           <li>
             {portfolio.about.like.icon} {portfolio.about.like.key}: {portfolio.about.like.value.join(', ')}
