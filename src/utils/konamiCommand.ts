@@ -1,6 +1,8 @@
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useRef } from "react";
 
-export const konamiCommandSequence = [
+type KeySequence = string[];
+
+export const konamiCommandSequence: KeySequence = [
   "ArrowUp",
   "ArrowUp",
   "ArrowDown",
@@ -14,56 +16,16 @@ export const konamiCommandSequence = [
 ];
 
 /**
- * コナミコマンドを検出するカスタムフック
- * @returns コナミコマンドが有効かどうかを示すboolean値
+ * 入力されたキーシーケンスがコナミコマンドと一致するか確認する
+ * @param keySequence 入力されたキーシーケンス
+ * @returns コナミコマンドと一致するかどうか
  */
-export const useKonamiCommand = (): boolean => {
-  const [konamiActivated, setKonamiActivated] = useState(false);
-  const [keySequence, setKeySequence] = useState<string[]>([]);
+export const isKonamiCommand = (keySequence: KeySequence): boolean => {
+  if (keySequence.length !== konamiCommandSequence.length) {
+    return false;
+  }
 
-  const activateKonamiCommand = useCallback(() => {
-    setKonamiActivated(true);
-  }, []);
-
-  useEffect(() => {
-    const cleanupListener = setupKonamiCommandListener(
-      activateKonamiCommand,
-      setKeySequence,
-      keySequence,
-    );
-
-    return cleanupListener;
-  }, [keySequence, activateKonamiCommand]);
-
-  return konamiActivated;
-};
-
-/**
- * キーボードイベントハンドラを設定する
- * @param callback コナミコマンドが入力された時に呼び出されるコールバック関数
- * @param setKeySequence キーシーケンスを更新する関数
- * @param keySequence 現在のキーシーケンス
- * @returns イベントハンドラの登録と解除を行う関数
- */
-export const setupKonamiCommandListener = (
-  callback: () => void,
-  setKeySequence: (sequence: string[]) => void,
-  keySequence: string[],
-): (() => void) => {
-  const handleKeyDown = (event: KeyboardEvent) => {
-    const updatedSequence = updateKeySequence(event, keySequence);
-    setKeySequence(updatedSequence);
-
-    if (isKonamiCommand(updatedSequence)) {
-      callback();
-    }
-  };
-
-  window.addEventListener("keydown", handleKeyDown);
-
-  return () => {
-    window.removeEventListener("keydown", handleKeyDown);
-  };
+  return keySequence.every((key, index) => key === konamiCommandSequence[index]);
 };
 
 /**
@@ -72,23 +34,39 @@ export const setupKonamiCommandListener = (
  * @param currentSequence 現在のキーシーケンス
  * @returns 更新されたキーシーケンス
  */
-export const updateKeySequence = (event: KeyboardEvent, currentSequence: string[]): string[] => {
-  // 現在のキーシーケンスに新しいキーを追加
+export const updateKeySequence = (
+  event: KeyboardEvent,
+  currentSequence: KeySequence,
+): KeySequence => {
   const newSequence = [...currentSequence, event.key];
-
-  // 最新の10キーだけを保持
   return newSequence.slice(-konamiCommandSequence.length);
 };
 
 /**
- * 入力されたキーシーケンスがコナミコマンドと一致するか確認する
- * @param keySequence 入力されたキーシーケンス
- * @returns コナミコマンドと一致するかどうか
+ * コナミコマンドを検出するカスタムフック
+ * @returns コナミコマンドが有効かどうかを示すboolean値
  */
-export const isKonamiCommand = (keySequence: string[]): boolean => {
-  if (keySequence.length !== konamiCommandSequence.length) {
-    return false;
-  }
+export const useKonamiCommand = (): boolean => {
+  const [activated, setActivated] = useState(false);
+  const keySequenceRef = useRef<KeySequence>([]);
 
-  return keySequence.every((key, index) => key === konamiCommandSequence[index]);
+  useEffect(() => {
+    if (activated) return;
+
+    const handleKeyDown = (event: KeyboardEvent) => {
+      keySequenceRef.current = updateKeySequence(event, keySequenceRef.current);
+
+      if (isKonamiCommand(keySequenceRef.current)) {
+        setActivated(true);
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [activated]);
+
+  return activated;
 };
