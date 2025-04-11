@@ -1,4 +1,5 @@
 .top-container {
+  display: flow-root;
   padding-left: 20px;
   padding-right: 20px;
 }
