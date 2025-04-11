@@ -1,12 +1,17 @@
+export interface Section<T> {
+  title: string;
+  values: Array<T>;
+}
+
 export interface Portfolio {
   title: string;
   about: About;
-  links: Links;
-  experiences: Experiences;
-  educations: Educations;
-  internships: Internships;
-  certifications: Certifications;
-  other_histories: OtherHistories;
+  links: Section<Link>;
+  experiences: Section<Experience>;
+  educations: Section<Education>;
+  internships: Section<Internship>;
+  certifications: Section<Certification>;
+  other_histories: Section<OtherHistory>;
 }
 
 export interface About {
@@ -43,19 +48,9 @@ export interface AboutItem {
   icon: string;
 }
 
-export interface Links {
-  title: string;
-  values: Array<Link>;
-}
-
 export interface Link {
   name: string;
   url: string;
-}
-
-export interface Experiences {
-  title: string;
-  values: Array<Experience>;
 }
 
 export interface Experience {
@@ -66,22 +61,12 @@ export interface Experience {
   desc: Array<string>;
 }
 
-export interface Educations {
-  title: string;
-  values: Array<Education>;
-}
-
 export interface Education {
   name: string;
   dept: string;
   url: string;
   begin: number;
   end?: number;
-}
-
-export interface Internships {
-  title: string;
-  values: Array<Internship>;
 }
 
 export interface Internship {
@@ -92,19 +77,9 @@ export interface Internship {
   tech: Array<string>;
 }
 
-export interface Certifications {
-  title: string;
-  values: Array<Certification>;
-}
-
 export interface Certification {
   name: string;
   year: number;
-}
-
-export interface OtherHistories {
-  title: string;
-  values: Array<OtherHistory>;
 }
 
 export interface OtherHistory {
