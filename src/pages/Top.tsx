@@ -16,10 +16,10 @@ const Top: FC = () => {
 
       {/* Icons section */}
       <div>
-        <img src={icon} alt="Icon" style={{ height: '200px' }} />
-        <img src={icon2} alt="Icon 2" style={{ height: '200px' }} />
-        <img src={icon3} alt="Icon 3" style={{ height: '200px' }} />
-        <img src={icon4} alt="Icon 4" style={{ height: '200px' }} />
+        <img src={icon} alt="Icon" style={{ height: '200px' }} loading="lazy" />
+        <img src={icon2} alt="Icon 2" style={{ height: '200px' }} loading="lazy" />
+        <img src={icon3} alt="Icon 3" style={{ height: '200px' }} loading="lazy" />
+        <img src={icon4} alt="Icon 4" style={{ height: '200px' }} loading="lazy" />
       </div>
 
       {/* About section */}
