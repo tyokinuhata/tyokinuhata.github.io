@@ -2,10 +2,23 @@ import { FC } from 'react';
 import portfolioData from '../data/portfolio.json';
 import type { Portfolio } from '../types/portfolio';
 import { calculateAge } from '../utils/date';
-import icon from '../assets/icon.png';
-import icon2 from '../assets/icon2.jpg';
-import icon3 from '../assets/icon3.jpg';
-import icon4 from '../assets/icon4.jpg';
+
+// Import images with vite-imagetools transformations
+import iconOriginal from '../assets/icon.png';
+import iconWebp from '../assets/icon.png?format=webp';
+import iconAvif from '../assets/icon.png?format=avif';
+
+import icon2Original from '../assets/icon2.jpg';
+import icon2Webp from '../assets/icon2.jpg?format=webp';
+import icon2Avif from '../assets/icon2.jpg?format=avif';
+
+import icon3Original from '../assets/icon3.jpg';
+import icon3Webp from '../assets/icon3.jpg?format=webp';
+import icon3Avif from '../assets/icon3.jpg?format=avif';
+
+import icon4Original from '../assets/icon4.jpg';
+import icon4Webp from '../assets/icon4.jpg?format=webp';
+import icon4Avif from '../assets/icon4.jpg?format=avif';
 import './Top.css';
 
 const portfolio = portfolioData as Portfolio;
@@ -16,11 +29,34 @@ const Top: FC = () => {
       <h1>{portfolio.title}</h1>
 
       {/* Icons section */}
-      <div>
-        <img src={icon} alt="Icon" className="icon" loading="lazy" />
-        <img src={icon2} alt="Icon 2" className="icon" loading="lazy" />
-        <img src={icon3} alt="Icon 3" className="icon" loading="lazy" />
-        <img src={icon4} alt="Icon 4" className="icon" loading="lazy" />
+      <div className="icon-container">
+        {/* Icon 1 */}
+        <picture>
+          <source srcSet={iconAvif} type="image/avif" />
+          <source srcSet={iconWebp} type="image/webp" />
+          <img src={iconOriginal} alt="Icon" className="icon" loading="lazy" />
+        </picture>
+
+        {/* Icon 2 */}
+        <picture>
+          <source srcSet={icon2Avif} type="image/avif" />
+          <source srcSet={icon2Webp} type="image/webp" />
+          <img src={icon2Original} alt="Icon 2" className="icon" loading="lazy" />
+        </picture>
+
+        {/* Icon 3 */}
+        <picture>
+          <source srcSet={icon3Avif} type="image/avif" />
+          <source srcSet={icon3Webp} type="image/webp" />
+          <img src={icon3Original} alt="Icon 3" className="icon" loading="lazy" />
+        </picture>
+
+        {/* Icon 4 */}
+        <picture>
+          <source srcSet={icon4Avif} type="image/avif" />
+          <source srcSet={icon4Webp} type="image/webp" />
+          <img src={icon4Original} alt="Icon 4" className="icon" loading="lazy" />
+        </picture>
       </div>
 
       {/* About section */}
