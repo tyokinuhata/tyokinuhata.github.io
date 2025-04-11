@@ -6,6 +6,7 @@ import icon from '../assets/icon.png';
 import icon2 from '../assets/icon2.jpg';
 import icon3 from '../assets/icon3.jpg';
 import icon4 from '../assets/icon4.jpg';
+import './Top.css';
 
 const portfolio = portfolioData as Portfolio;
 
@@ -16,10 +17,10 @@ const Top: FC = () => {
 
       {/* Icons section */}
       <div>
-        <img src={icon} alt="Icon" style={{ height: '200px' }} loading="lazy" />
-        <img src={icon2} alt="Icon 2" style={{ height: '200px' }} loading="lazy" />
-        <img src={icon3} alt="Icon 3" style={{ height: '200px' }} loading="lazy" />
-        <img src={icon4} alt="Icon 4" style={{ height: '200px' }} loading="lazy" />
+        <img src={icon} alt="Icon" className="icon" loading="lazy" />
+        <img src={icon2} alt="Icon 2" className="icon" loading="lazy" />
+        <img src={icon3} alt="Icon 3" className="icon" loading="lazy" />
+        <img src={icon4} alt="Icon 4" className="icon" loading="lazy" />
       </div>
 
       {/* About section */}
