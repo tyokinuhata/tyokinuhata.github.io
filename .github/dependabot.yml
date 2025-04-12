@@ -9,9 +9,4 @@ updates:
       - dependency-type: "all"
     versioning-strategy: "increase"
     rebase-strategy: "auto"
-
-  - package-ecosystem: "npm"
-    directory: "/"
-    schedule:
-      interval: "weekly"
     security-updates: true
