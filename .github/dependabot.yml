@@ -9,4 +9,3 @@ updates:
       - dependency-type: "all"
     versioning-strategy: "increase"
     rebase-strategy: "auto"
-    security-updates: true
