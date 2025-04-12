@@ -34,28 +34,28 @@ const Top: FC = () => {
         <picture>
           <source srcSet={iconAvif} type="image/avif" />
           <source srcSet={iconWebp} type="image/webp" />
-          <img src={iconOriginal} alt="Icon" className="icon" loading="lazy" />
+          <img src={iconOriginal} alt="Icon" className="icon" width="200" height="200" />
         </picture>
 
         {/* Icon 2 */}
         <picture>
           <source srcSet={icon2Avif} type="image/avif" />
           <source srcSet={icon2Webp} type="image/webp" />
-          <img src={icon2Original} alt="Icon 2" className="icon" loading="lazy" />
+          <img src={icon2Original} alt="Icon 2" className="icon" width="200" height="200" />
         </picture>
 
         {/* Icon 3 */}
         <picture>
           <source srcSet={icon3Avif} type="image/avif" />
           <source srcSet={icon3Webp} type="image/webp" />
-          <img src={icon3Original} alt="Icon 3" className="icon" loading="lazy" />
+          <img src={icon3Original} alt="Icon 3" className="icon" width="200" height="200" />
         </picture>
 
         {/* Icon 4 */}
         <picture>
           <source srcSet={icon4Avif} type="image/avif" />
           <source srcSet={icon4Webp} type="image/webp" />
-          <img src={icon4Original} alt="Icon 4" className="icon" loading="lazy" />
+          <img src={icon4Original} alt="Icon 4" className="icon" width="200" height="200" />
         </picture>
       </div>
 
