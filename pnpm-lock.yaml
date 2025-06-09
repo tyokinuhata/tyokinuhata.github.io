@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@fontsource/inter':
-        specifier: 5.2.5
-        version: 5.2.5
+        specifier: 5.2.6
+        version: 5.2.6
       '@fontsource/noto-sans-jp':
         specifier: 5.2.5
         version: 5.2.5
@@ -260,8 +260,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@fontsource/inter@5.2.5':
-    resolution: {integrity: sha512-kbsPKj0S4p44JdYRFiW78Td8Ge2sBVxi/PIBwmih+RpSXUdvS9nbs1HIiuUSPtRMi14CqLEZ/fbk7dj7vni1Sg==}
+  '@fontsource/inter@5.2.6':
+    resolution: {integrity: sha512-CZs9S1CrjD0jPwsNy9W6j0BhsmRSQrgwlTNkgQXTsAeDRM42LBRLo3eo9gCzfH4GvV7zpyf78Ozfl773826csw==}
 
   '@fontsource/noto-sans-jp@5.2.5':
     resolution: {integrity: sha512-ISoJUQlsuSo4y56P+eJD+g022BRAF1BC2uCyEFGRsob0g8VvQAoWNMlWh+P0VQw68QzZHHj41zRzeRFpzAdA7w==}
@@ -1021,7 +1021,7 @@ snapshots:
   '@esbuild/win32-x64@0.25.3':
     optional: true
 
-  '@fontsource/inter@5.2.5': {}
+  '@fontsource/inter@5.2.6': {}
 
   '@fontsource/noto-sans-jp@5.2.5': {}
 
