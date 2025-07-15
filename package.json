@@ -15,19 +15,19 @@
     "*.{js,jsx,ts,tsx,json,css,md}": ["pnpm lint", "pnpm format"]
   },
   "dependencies": {
-    "@fontsource/inter": "5.2.5",
-    "@fontsource/noto-sans-jp": "5.2.5",
+    "@fontsource/inter": "5.2.6",
+    "@fontsource/noto-sans-jp": "5.2.6",
     "date-fns": "4.1.0",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.9.4",
+    "@biomejs/biome": "2.0.5",
     "@types/react": "19.1.8",
-    "@types/react-dom": "19.1.4",
-    "@vitejs/plugin-react-swc": "3.10.0",
+    "@types/react-dom": "19.1.6",
+    "@vitejs/plugin-react-swc": "3.10.2",
     "husky": "9.1.7",
-    "lint-staged": "16.1.0",
+    "lint-staged": "16.1.2",
     "typescript": "5.8.3",
     "vite": "6.3.5",
     "vite-imagetools": "7.1.0"
