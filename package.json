@@ -15,7 +15,7 @@
     "*.{js,jsx,ts,tsx,json,css,md}": ["pnpm lint", "pnpm format"]
   },
   "dependencies": {
-    "@fontsource/inter": "5.2.5",
+    "@fontsource/inter": "5.2.6",
     "@fontsource/noto-sans-jp": "5.2.5",
     "date-fns": "4.1.0",
     "react": "19.1.0",
