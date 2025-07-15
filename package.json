@@ -15,8 +15,8 @@
     "*.{js,jsx,ts,tsx,json,css,md}": ["pnpm lint", "pnpm format"]
   },
   "dependencies": {
-    "@fontsource/noto-sans-jp": "5.2.6",
     "@fontsource/inter": "5.2.6",
+    "@fontsource/noto-sans-jp": "5.2.6",
     "date-fns": "4.1.0",
     "react": "19.1.0",
     "react-dom": "19.1.0"
