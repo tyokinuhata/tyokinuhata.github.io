@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@fontsource/inter':
-        specifier: 5.2.6
-        version: 5.2.6
+        specifier: 5.2.8
+        version: 5.2.8
       '@fontsource/noto-sans-jp':
         specifier: 5.2.6
         version: 5.2.6
@@ -32,7 +32,7 @@ importers:
         version: 19.1.8
       '@types/react-dom':
         specifier: 19.1.6
-        version: 19.1.6(@types/react@19.1.6)
+        version: 19.1.6(@types/react@19.1.8)
       '@vitejs/plugin-react-swc':
         specifier: 3.10.2
         version: 3.10.2(vite@6.3.5(yaml@2.8.0))
@@ -260,8 +260,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@fontsource/inter@5.2.6':
-    resolution: {integrity: sha512-CZs9S1CrjD0jPwsNy9W6j0BhsmRSQrgwlTNkgQXTsAeDRM42LBRLo3eo9gCzfH4GvV7zpyf78Ozfl773826csw==}
+  '@fontsource/inter@5.2.8':
+    resolution: {integrity: sha512-P6r5WnJoKiNVV+zvW2xM13gNdFhAEpQ9dQJHt3naLvfg+LkF2ldgSLiF4T41lf1SQCM9QmkqPTn4TH568IRagg==}
 
   '@fontsource/noto-sans-jp@5.2.6':
     resolution: {integrity: sha512-BvUHYZKL87yWGRNFqInxDciU/Czp6klOEcB9l/6CnjMN77F5jc21r/A4XkMx46eY8FzVvfjCYTYUB4zExlX2Ww==}
@@ -1021,7 +1021,7 @@ snapshots:
   '@esbuild/win32-x64@0.25.3':
     optional: true
 
-  '@fontsource/inter@5.2.6': {}
+  '@fontsource/inter@5.2.8': {}
 
   '@fontsource/noto-sans-jp@5.2.6': {}
 
@@ -1227,7 +1227,7 @@ snapshots:
 
   '@types/estree@1.0.7': {}
 
-  '@types/react-dom@19.1.6(@types/react@19.1.6)':
+  '@types/react-dom@19.1.6(@types/react@19.1.8)':
     dependencies:
       '@types/react': 19.1.8
 
