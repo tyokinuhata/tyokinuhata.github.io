@@ -7,6 +7,8 @@
 ### Getting started
 
 ```bash
+$ mise trust
+$ mise install
 $ pnpm install
 $ chmod +x .husky/pre-commit
 $ pnpm prepare
