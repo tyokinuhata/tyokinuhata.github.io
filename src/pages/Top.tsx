@@ -149,7 +149,7 @@ const Top: FC = () => {
         <h2>{portfolio.internships.title}</h2>
         <ul>
           {portfolio.internships.values.map(internship => (
-            <li key={internship.name}>
+            <li key={`${internship.name}-${internship.begin}`}>
               <a href={internship.url} target="_blank" rel="noopener noreferrer">
                 {internship.name}
               </a>
