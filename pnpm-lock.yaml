@@ -12,8 +12,8 @@ importers:
         specifier: 5.2.8
         version: 5.2.8
       '@fontsource/noto-sans-jp':
-        specifier: 5.2.6
-        version: 5.2.6
+        specifier: 5.2.9
+        version: 5.2.9
       date-fns:
         specifier: 4.1.0
         version: 4.1.0
@@ -269,8 +269,8 @@ packages:
   '@fontsource/inter@5.2.8':
     resolution: {integrity: sha512-P6r5WnJoKiNVV+zvW2xM13gNdFhAEpQ9dQJHt3naLvfg+LkF2ldgSLiF4T41lf1SQCM9QmkqPTn4TH568IRagg==}
 
-  '@fontsource/noto-sans-jp@5.2.6':
-    resolution: {integrity: sha512-BvUHYZKL87yWGRNFqInxDciU/Czp6klOEcB9l/6CnjMN77F5jc21r/A4XkMx46eY8FzVvfjCYTYUB4zExlX2Ww==}
+  '@fontsource/noto-sans-jp@5.2.9':
+    resolution: {integrity: sha512-6yVGiofnrnbiJjU8ch4JGSs2HqyozxMvsVyVmFwOnDH3u//qQKLqmKM4n0lqN0637uaJNzUW9nIJqbbMgHVQzw==}
 
   '@img/sharp-darwin-arm64@0.34.1':
     resolution: {integrity: sha512-pn44xgBtgpEbZsu+lWf2KNb6OAf70X68k+yk69Ic2Xz11zHR/w24/U49XT7AeRwJ0Px+mhALhU5LPci1Aymk7A==}
@@ -1037,7 +1037,7 @@ snapshots:
 
   '@fontsource/inter@5.2.8': {}
 
-  '@fontsource/noto-sans-jp@5.2.6': {}
+  '@fontsource/noto-sans-jp@5.2.9': {}
 
   '@img/sharp-darwin-arm64@0.34.1':
     optionalDependencies:
