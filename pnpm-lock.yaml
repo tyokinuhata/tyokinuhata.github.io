@@ -12,8 +12,8 @@ importers:
         specifier: 5.3.0
         version: 5.3.0
       '@fontsource/noto-sans-jp':
-        specifier: 5.2.9
-        version: 5.2.9
+        specifier: 5.3.0
+        version: 5.3.0
       date-fns:
         specifier: 4.4.0
         version: 4.4.0
@@ -275,8 +275,8 @@ packages:
   '@fontsource/inter@5.3.0':
     resolution: {integrity: sha512-RofMylZmjlJEfELXeNHFWBRcSs75rGU/6bV2S2jfnvv/3rPXPGe0LgUJTklcHZ9lM4OZmAVFhcJPnACfb91A3g==}
 
-  '@fontsource/noto-sans-jp@5.2.9':
-    resolution: {integrity: sha512-6yVGiofnrnbiJjU8ch4JGSs2HqyozxMvsVyVmFwOnDH3u//qQKLqmKM4n0lqN0637uaJNzUW9nIJqbbMgHVQzw==}
+  '@fontsource/noto-sans-jp@5.3.0':
+    resolution: {integrity: sha512-OZbBzZ8LrFRs2RFT2Cc0HUV2C2ZeSfyEXhDJWR0EZuZaraJfRubpvrFmUnCljuBDEkw8Vn6CE/+nf9dj9b+0lg==}
 
   '@img/colour@1.1.0':
     resolution: {integrity: sha512-Td76q7j57o/tLVdgS746cYARfSyxk8iEfRxewL9h4OMzYhbW4TAcppl0mT4eyqXddh6L/jwoM75mo7ixa/pCeQ==}
@@ -1280,7 +1280,7 @@ snapshots:
 
   '@fontsource/inter@5.3.0': {}
 
-  '@fontsource/noto-sans-jp@5.2.9': {}
+  '@fontsource/noto-sans-jp@5.3.0': {}
 
   '@img/colour@1.1.0': {}
 
