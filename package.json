@@ -26,7 +26,7 @@
     "@types/react-dom": "19.2.5",
     "@vitejs/plugin-react": "6.1.0",
     "husky": "9.1.7",
-    "lint-staged": "17.3.0",
+    "lint-staged": "17.4.1",
     "typescript": "7.0.2",
     "vite": "8.2.2",
     "vite-imagetools": "12.0.0"
