@@ -1,24 +1,20 @@
 import type { FC } from "react";
+// Import images with vite-imagetools transformations
+import iconOriginal from "../assets/icon.png";
+import iconAvif from "../assets/icon.png?format=avif";
+import iconWebp from "../assets/icon.png?format=webp";
+import icon2Original from "../assets/icon2.jpg";
+import icon2Avif from "../assets/icon2.jpg?format=avif";
+import icon2Webp from "../assets/icon2.jpg?format=webp";
+import icon3Original from "../assets/icon3.jpg";
+import icon3Avif from "../assets/icon3.jpg?format=avif";
+import icon3Webp from "../assets/icon3.jpg?format=webp";
+import icon4Original from "../assets/icon4.jpg";
+import icon4Avif from "../assets/icon4.jpg?format=avif";
+import icon4Webp from "../assets/icon4.jpg?format=webp";
 import portfolioData from "../data/portfolio.json";
 import type { Portfolio } from "../types/portfolio";
 import { calculateAge } from "../utils/date";
-
-// Import images with vite-imagetools transformations
-import iconOriginal from "../assets/icon.png";
-import iconWebp from "../assets/icon.png?format=webp";
-import iconAvif from "../assets/icon.png?format=avif";
-
-import icon2Original from "../assets/icon2.jpg";
-import icon2Webp from "../assets/icon2.jpg?format=webp";
-import icon2Avif from "../assets/icon2.jpg?format=avif";
-
-import icon3Original from "../assets/icon3.jpg";
-import icon3Webp from "../assets/icon3.jpg?format=webp";
-import icon3Avif from "../assets/icon3.jpg?format=avif";
-
-import icon4Original from "../assets/icon4.jpg";
-import icon4Webp from "../assets/icon4.jpg?format=webp";
-import icon4Avif from "../assets/icon4.jpg?format=avif";
 import "./Top.css";
 
 const portfolio = portfolioData as Portfolio;
