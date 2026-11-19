@@ -11,7 +11,7 @@ export interface Portfolio {
   educations: Section<Education>;
   internships: Section<Internship>;
   certifications: Section<Certification>;
-  otherHistories: Section<OtherHistory>;
+  activities: Section<Activity>;
 }
 
 export interface About {
@@ -82,7 +82,7 @@ export interface Certification {
   year: number;
 }
 
-export interface OtherHistory {
+export interface Activity {
   name: string;
   url?: string;
   begin: number;

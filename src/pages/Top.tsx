@@ -140,22 +140,20 @@ const Top: FC = () => {
         </ul>
       </section>
 
-      {/* Internships section */}
+      {/* Activities section */}
       <section>
-        <h2>{portfolio.internships.title}</h2>
+        <h2>{portfolio.activities.title}</h2>
         <ul>
-          {portfolio.internships.values.map(internship => (
-            <li key={`${internship.name}-${internship.desc[0]}`}>
-              <a href={internship.url} target="_blank" rel="noopener noreferrer">
-                {internship.name}
-              </a>
-              ({internship.begin})
-              <ul>
-                {internship.desc.map(description => (
-                  <li key={description}>{description}</li>
-                ))}
-                <li>Technologies: {internship.tech.join(", ")}</li>
-              </ul>
+          {portfolio.activities.values.map(activity => (
+            <li key={activity.name}>
+              {activity.url ? (
+                <a href={activity.url} target="_blank" rel="noopener noreferrer">
+                  {activity.name}
+                </a>
+              ) : (
+                activity.name
+              )}
+              ({activity.begin})
             </li>
           ))}
         </ul>
@@ -173,20 +171,22 @@ const Top: FC = () => {
         </ul>
       </section>
 
-      {/* Other Histories section */}
+      {/* Internships section */}
       <section>
-        <h2>{portfolio.otherHistories.title}</h2>
+        <h2>{portfolio.internships.title}</h2>
         <ul>
-          {portfolio.otherHistories.values.map(history => (
-            <li key={history.name}>
-              {history.url ? (
-                <a href={history.url} target="_blank" rel="noopener noreferrer">
-                  {history.name}
-                </a>
-              ) : (
-                history.name
-              )}
-              ({history.begin})
+          {portfolio.internships.values.map(internship => (
+            <li key={`${internship.name}-${internship.desc[0]}`}>
+              <a href={internship.url} target="_blank" rel="noopener noreferrer">
+                {internship.name}
+              </a>
+              ({internship.begin})
+              <ul>
+                {internship.desc.map(description => (
+                  <li key={description}>{description}</li>
+                ))}
+                <li>Technologies: {internship.tech.join(", ")}</li>
+              </ul>
             </li>
           ))}
         </ul>

@@ -165,64 +165,53 @@
       }
     ]
   },
-  "internships": {
-    "title": "INTERNSHIP",
+  "activities": {
+    "title": "ACTIVITIES",
     "values": [
       {
-        "name": "富士通エフ・オー・エム株式会社",
-        "url": "https://www.fom.fujitsu.com/",
-        "begin": 2014,
-        "desc": ["HTMLとJavaScriptを用いた基本的なアルゴリズムの学習"],
-        "tech": ["HTML", "JavaScript", "Algorithm"]
+        "name": "IT・簿記選手権大会 近畿・中国・四国大会 IT部門 個人の部 第11位",
+        "url": "https://www.itboki.jp/",
+        "begin": 2016
       },
       {
-        "name": "NECマネジメントパートナー株式会社",
-        "url": "https://www.necmp.co.jp/",
-        "begin": 2015,
-        "desc": ["LAMP環境を用いたショッピングサイトの制作"],
-        "tech": ["Linux", "Apache", "MySQL", "PHP"]
+        "name": "SPAJAM2019 関西予選 最優秀賞",
+        "url": "https://activity.spajam.jp/2019/entry/kansai/",
+        "begin": 2019
       },
       {
-        "name": "株式会社神戸デジタル・ラボ",
-        "url": "https://www.kdl.co.jp/",
-        "begin": 2016,
-        "desc": ["ネットショッピングサイトの改善提案とデモサイトの実装"],
-        "tech": ["HTML", "CSS", "Bootstrap"]
+        "name": "ママチャリ 大阪 - 名古屋",
+        "begin": 2019
       },
       {
-        "name": "KLab株式会社",
-        "url": "https://www.klab.com/",
-        "begin": 2019,
-        "desc": ["TCP/IPプロトコルスタックの自作"],
-        "tech": ["C", "TCP/IP", "Network"]
+        "name": "ママチャリ 淡路島一周",
+        "begin": 2020
       },
       {
-        "name": "株式会社ファンコミュニケーションズ",
-        "url": "https://www.fancs.com/",
-        "begin": 2019,
-        "desc": ["アドネットワークのnendのインフラ環境の操作"],
-        "tech": ["Linux", "LVS", "keepalived", "PHP"]
+        "name": "ママチャリ 琵琶湖一周",
+        "begin": 2020
       },
       {
-        "name": "株式会社サイバーエージェント",
-        "url": "https://www.cyberagent.co.jp/",
-        "begin": 2019,
-        "desc": ["AbemaTVのWebフロントエンドの改善提案・実装"],
-        "tech": ["Linux", "LVS", "keepalived", "PHP"]
+        "name": "ママチャリ 志賀島一周",
+        "begin": 2021
       },
       {
-        "name": "株式会社サイバーエージェント",
-        "url": "https://www.cyberagent.co.jp/",
-        "begin": 2019,
-        "desc": ["Intel NUC上でKubernetesクラスタを構築"],
-        "tech": ["Intel NUC", "Kubernetes"]
+        "name": "富士山 富士宮ルート 登頂",
+        "begin": 2022
       },
       {
-        "name": "株式会社ゆめみ",
-        "url": "https://www.yumemi.co.jp/",
-        "begin": 2020,
-        "desc": ["GCPとKubernetesを用いたGitOpsの検証"],
-        "tech": ["GCP", "Kubernetes", "GitOps"]
+        "name": "SPAJAM2025 東京予選 優秀賞",
+        "url": "https://spajam.jp/result/",
+        "begin": 2025
+      },
+      {
+        "name": "NT金沢2026 出展",
+        "url": "https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026",
+        "begin": 2026
+      },
+      {
+        "name": "NT名古屋2026 出展",
+        "url": "https://wiki.nicotech.jp/nico_tech/?NT%E5%90%8D%E5%8F%A4%E5%B1%8B2026",
+        "begin": 2026
       }
     ]
   },
@@ -295,53 +284,64 @@
       }
     ]
   },
-  "otherHistories": {
-    "title": "OTHER HISTORIES",
+  "internships": {
+    "title": "INTERNSHIP",
     "values": [
       {
-        "name": "IT・簿記選手権大会 近畿・中国・四国大会 IT部門 個人の部 第11位",
-        "url": "https://www.itboki.jp/",
-        "begin": 2016
+        "name": "富士通エフ・オー・エム株式会社",
+        "url": "https://www.fom.fujitsu.com/",
+        "begin": 2014,
+        "desc": ["HTMLとJavaScriptを用いた基本的なアルゴリズムの学習"],
+        "tech": ["HTML", "JavaScript", "Algorithm"]
       },
       {
-        "name": "SPAJAM2019 関西予選 最優秀賞",
-        "url": "https://history.spajam.jp/2019/entry/kansai/",
-        "begin": 2019
+        "name": "NECマネジメントパートナー株式会社",
+        "url": "https://www.necmp.co.jp/",
+        "begin": 2015,
+        "desc": ["LAMP環境を用いたショッピングサイトの制作"],
+        "tech": ["Linux", "Apache", "MySQL", "PHP"]
       },
       {
-        "name": "ママチャリ 大阪 - 名古屋",
-        "begin": 2019
+        "name": "株式会社神戸デジタル・ラボ",
+        "url": "https://www.kdl.co.jp/",
+        "begin": 2016,
+        "desc": ["ネットショッピングサイトの改善提案とデモサイトの実装"],
+        "tech": ["HTML", "CSS", "Bootstrap"]
       },
       {
-        "name": "ママチャリ 淡路島一周",
-        "begin": 2020
+        "name": "KLab株式会社",
+        "url": "https://www.klab.com/",
+        "begin": 2019,
+        "desc": ["TCP/IPプロトコルスタックの自作"],
+        "tech": ["C", "TCP/IP", "Network"]
       },
       {
-        "name": "ママチャリ 琵琶湖一周",
-        "begin": 2020
+        "name": "株式会社ファンコミュニケーションズ",
+        "url": "https://www.fancs.com/",
+        "begin": 2019,
+        "desc": ["アドネットワークのnendのインフラ環境の操作"],
+        "tech": ["Linux", "LVS", "keepalived", "PHP"]
       },
       {
-        "name": "ママチャリ 志賀島一周",
-        "begin": 2021
+        "name": "株式会社サイバーエージェント",
+        "url": "https://www.cyberagent.co.jp/",
+        "begin": 2019,
+        "desc": ["AbemaTVのWebフロントエンドの改善提案・実装"],
+        "tech": ["Linux", "LVS", "keepalived", "PHP"]
       },
       {
-        "name": "富士山 富士宮ルート 登頂",
-        "begin": 2022
+        "name": "株式会社サイバーエージェント",
+        "url": "https://www.cyberagent.co.jp/",
+        "begin": 2019,
+        "desc": ["Intel NUC上でKubernetesクラスタを構築"],
+        "tech": ["Intel NUC", "Kubernetes"]
       },
       {
-        "name": "SPAJAM2025 東京予選 優秀賞",
-        "url": "https://spajam.jp/result/",
-        "begin": 2025
-      },
-      {
-        "name": "NT金沢2026 出展",
-        "url": "https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026",
-        "begin": 2026
-      },
-      {
-        "name": "NT名古屋2026 出展",
-        "url": "https://wiki.nicotech.jp/nico_tech/?NT%E5%90%8D%E5%8F%A4%E5%B1%8B2026",
-        "begin": 2026
+        "name": "株式会社ゆめみ",
+        "url": "https://www.yumemi.co.jp/",
+        "begin": 2020,
+        "desc": ["GCPとKubernetesを用いたGitOpsの検証"],
+        "tech": ["GCP", "Kubernetes", "GitOps"]
       }
     ]
   }
