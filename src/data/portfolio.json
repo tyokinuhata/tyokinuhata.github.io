@@ -89,6 +89,76 @@
       }
     ]
   },
+  "works": {
+    "title": "WORKS",
+    "values": [
+      {
+        "name": "vhsify",
+        "category": "Software",
+        "desc": "画像や動画をVHS風に変換するコマンドラインツール",
+        "url": "https://github.com/oborodice/vhsify"
+      },
+      {
+        "name": "we found footage of UYUPUN",
+        "category": "Video",
+        "desc": "UYUPUNの紹介映像",
+        "url": "https://www.youtube.com/watch?v=x9rqHj3-Hfc"
+      },
+      {
+        "name": "UYUPUN ロゴ",
+        "category": "Design",
+        "desc": "ラバーホース・アニメーション風のイラストを据えた、UYUPUNのロゴ",
+        "url": "/works/uyupun-logo.png"
+      },
+      {
+        "name": "UYUPUN フライヤー",
+        "category": "Print",
+        "desc": "UYUPUNのフライヤー",
+        "url": "/prints/uyupun-flyer.pdf"
+      },
+      {
+        "name": "甲種異獣創造者",
+        "category": "Print",
+        "desc": "UYUPUNのポスター",
+        "url": "/prints/uyupun-poster.pdf"
+      },
+      {
+        "name": "静謐な武装の顕現",
+        "category": "Artwork",
+        "desc": "錆びたスパイクと、近づく者を照らし返す目と口の赤い光で武装した小面"
+      },
+      {
+        "name": "Inverted Horizon",
+        "category": "Artwork",
+        "desc": "カメラに映る世界を、約1万字の日本の文字へリアルタイムに置き換え続ける映像装置",
+        "url": "https://www.youtube.com/watch?v=EwZ3J43id7k"
+      },
+      {
+        "name": "∂hosts",
+        "category": "Artwork",
+        "desc": "漢字の造形の規則だけを学んだ生成モデルが、まだ存在しない幽霊文字「メタ幽霊文字」を生み出しては消していく",
+        "url": "https://www.youtube.com/watch?v=wyBJe3_0Etc"
+      },
+      {
+        "name": "UYUPUN RELEASES v1.0.0",
+        "category": "Print",
+        "desc": "UYUPUNの作品集",
+        "url": "/prints/uyupun-releases-v1.0.0.pdf"
+      },
+      {
+        "name": "Eigenzeiτ",
+        "category": "Artwork",
+        "desc": "人には知覚できない空間の気配を、AIが自らの環世界として聴き取り、好奇心のままに音へと変える音響装置",
+        "url": "https://www.youtube.com/watch?v=amd6VJukqjc"
+      },
+      {
+        "name": "dependabot-auto-merge",
+        "category": "Software",
+        "desc": "DependabotのPRを自動でマージするGitHub Action",
+        "url": "https://github.com/oborodice/dependabot-auto-merge"
+      }
+    ]
+  },
   "experiences": {
     "title": "EXPERIENCE",
     "values": [

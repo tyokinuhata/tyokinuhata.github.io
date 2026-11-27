@@ -7,6 +7,7 @@ export interface Portfolio {
   title: string;
   about: About;
   links: Section<Link>;
+  works: Section<Work>;
   experiences: Section<Experience>;
   educations: Section<Education>;
   internships: Section<Internship>;
@@ -51,6 +52,13 @@ export interface AboutItem {
 export interface Link {
   name: string;
   url: string;
+}
+
+export interface Work {
+  name: string;
+  category: "Software" | "Artwork" | "Design" | "Print" | "Video";
+  desc: string;
+  url?: string;
 }
 
 export interface Experience {

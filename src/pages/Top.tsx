@@ -102,6 +102,28 @@ const Top: FC = () => {
         </ul>
       </section>
 
+      {/* Works section */}
+      <section>
+        <h2>{portfolio.works.title}</h2>
+        <ul>
+          {portfolio.works.values.map(work => (
+            <li key={work.name}>
+              {work.url ? (
+                <a href={work.url} target="_blank" rel="noopener noreferrer">
+                  {work.name}
+                </a>
+              ) : (
+                work.name
+              )}
+              ({work.category})
+              <ul>
+                <li>{work.desc}</li>
+              </ul>
+            </li>
+          ))}
+        </ul>
+      </section>
+
       {/* Experiences section */}
       <section>
         <h2>{portfolio.experiences.title}</h2>
